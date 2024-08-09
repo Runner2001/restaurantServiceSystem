@@ -1,0 +1,1895 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "pariatur",
+      "photo": "https://via.placeholder.com/640x480.png/00ffaa?text=reprehenderit",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 1,
+          "name": "sequi",
+          "description": "Error doloribus quia iure debitis tempore. Repellendus omnis quibusdam aut cum alias necessitatibus sunt. Numquam consequatur inventore deserunt in perspiciatis omnis fuga.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb55?text=voluptas",
+          "price": "986.67",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 2,
+          "name": "enim",
+          "description": "Soluta harum omnis voluptas tempora mollitia sit. Veritatis beatae officia perferendis ullam aut. Eos et quo sit doloribus quia.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffbb?text=voluptatibus",
+          "price": "641.21",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 3,
+          "name": "dolorem",
+          "description": "Maiores et alias nemo. Deleniti dolorem ut aut quas. Sint vel officia dolores sed atque maxime. Explicabo amet dolorum aperiam nesciunt aperiam aliquid iste. Quis corrupti consequatur odit quaerat odio est.",
+          "photo": "https://via.placeholder.com/640x480.png/00bbee?text=magni",
+          "price": "613.94",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 4,
+          "name": "dicta",
+          "description": "Tenetur provident labore tempore esse delectus. In quaerat dolorem laboriosam occaecati.",
+          "photo": "https://via.placeholder.com/640x480.png/008899?text=quam",
+          "price": "86.34",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 5,
+          "name": "aut",
+          "description": "Aut necessitatibus aut omnis enim. Aperiam eligendi dolore commodi laboriosam dolor tempore nulla. Voluptatem alias fugit modi nostrum. Enim exercitationem tempora esse sit aut.",
+          "photo": "https://via.placeholder.com/640x480.png/005500?text=earum",
+          "price": "415.80",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 6,
+          "name": "qui",
+          "description": "Doloribus qui maiores voluptas id non molestiae. Consequatur eius harum dolor aperiam.",
+          "photo": "https://via.placeholder.com/640x480.png/0088ff?text=esse",
+          "price": "596.20",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 7,
+          "name": "iusto",
+          "description": "Et optio minus et sunt eligendi similique illo. Occaecati provident quae omnis quam voluptatum nemo qui. Ipsa autem provident esse molestiae accusantium hic ut.",
+          "photo": "https://via.placeholder.com/640x480.png/0044ee?text=sit",
+          "price": "763.27",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 8,
+          "name": "possimus",
+          "description": "Aliquid perferendis autem aliquam ducimus dolor voluptatem quia. Quae error explicabo nulla vitae nam. Eos expedita aliquam quasi et perferendis perferendis. Beatae laboriosam incidunt ex sed deserunt asperiores ratione.",
+          "photo": "https://via.placeholder.com/640x480.png/00ddff?text=ut",
+          "price": "711.72",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 9,
+          "name": "totam",
+          "description": "Non sunt fugit dolorum et cumque. Aut ut minima voluptas non aut quia soluta. Ad magnam autem et nemo deserunt quae.",
+          "photo": "https://via.placeholder.com/640x480.png/00ddbb?text=distinctio",
+          "price": "38.47",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 10,
+          "name": "numquam",
+          "description": "Saepe id mollitia at velit nobis sit ea. Molestias ut aut id nihil exercitationem quo. Pariatur explicabo vel autem voluptas suscipit id. Sunt dolorem optio nulla est deserunt asperiores.",
+          "photo": "https://via.placeholder.com/640x480.png/008844?text=repellat",
+          "price": "796.05",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 11,
+          "name": "rerum",
+          "description": "Alias commodi quasi suscipit molestiae temporibus et iure. Incidunt amet aperiam aliquid et consectetur. Corrupti distinctio dolor non doloremque earum quia qui. Ad ut ex neque fugit.",
+          "photo": "https://via.placeholder.com/640x480.png/00ddaa?text=perspiciatis",
+          "price": "206.93",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 12,
+          "name": "voluptatem",
+          "description": "Praesentium autem recusandae quos et doloribus ut eveniet. Assumenda rem et omnis quia aperiam. Maiores minus ut doloribus veniam est quaerat.",
+          "photo": "https://via.placeholder.com/640x480.png/002277?text=ipsam",
+          "price": "584.63",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 13,
+          "name": "nesciunt",
+          "description": "Consequatur dolores totam quae ipsa sequi. Eos sunt quia laboriosam ut est qui autem. Aliquam unde ducimus ipsum dolores modi voluptas consequuntur. Aut qui fugit cum aperiam assumenda totam sed.",
+          "photo": "https://via.placeholder.com/640x480.png/00aaee?text=magni",
+          "price": "514.78",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 14,
+          "name": "at",
+          "description": "Quas ullam dolor eligendi voluptate ut. Accusamus omnis aut eum et sit id. Exercitationem velit placeat autem dolor qui aspernatur. Ea voluptatem rerum deleniti quidem error autem.",
+          "photo": "https://via.placeholder.com/640x480.png/00ccbb?text=quidem",
+          "price": "720.82",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 15,
+          "name": "id",
+          "description": "Nesciunt perferendis inventore a id ipsum vel ut. Omnis vel voluptatem quasi est unde nobis. Voluptate sed ex vel perferendis voluptatem hic et.",
+          "photo": "https://via.placeholder.com/640x480.png/001166?text=consectetur",
+          "price": "277.28",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 16,
+          "name": "quibusdam",
+          "description": "Et quasi sint eveniet. Veniam atque illo alias consequatur sapiente non fuga quia. Nihil sit vitae soluta eos alias omnis.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee99?text=aut",
+          "price": "739.01",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 17,
+          "name": "quae",
+          "description": "Et culpa necessitatibus nemo eius. Quis nostrum eos culpa sit ut quia sed. Maxime voluptatem vero pariatur suscipit autem. Officia et natus ut unde rerum.",
+          "photo": "https://via.placeholder.com/640x480.png/001133?text=dolore",
+          "price": "162.59",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 18,
+          "name": "eum",
+          "description": "Alias in enim aut consequatur unde facere. Occaecati tempore in at molestias. Voluptas iure ipsum laboriosam possimus. Voluptatem quaerat deleniti omnis explicabo odio aut.",
+          "photo": "https://via.placeholder.com/640x480.png/003388?text=voluptatum",
+          "price": "777.16",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 19,
+          "name": "quas",
+          "description": "Natus dolor sunt aperiam nobis voluptatem. Consequuntur nihil voluptatum quia nisi.",
+          "photo": "https://via.placeholder.com/640x480.png/0066ff?text=veritatis",
+          "price": "949.73",
+          "category_id": 1,
+          "category": "pariatur"
+        },
+        {
+          "id": 20,
+          "name": "assumenda",
+          "description": "Culpa et repellat esse omnis voluptas. Ducimus distinctio architecto incidunt et nam. Ducimus voluptatem distinctio harum tenetur ullam deserunt laboriosam. Labore blanditiis sed ab aspernatur.",
+          "photo": "https://via.placeholder.com/640x480.png/00aabb?text=autem",
+          "price": "219.70",
+          "category_id": 1,
+          "category": "pariatur"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "exercitationem",
+      "photo": "https://via.placeholder.com/640x480.png/004455?text=iste",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 21,
+          "name": "similique",
+          "description": "Enim repudiandae officiis corporis dignissimos. Voluptate consequatur sunt nesciunt incidunt accusamus. Ducimus quos facere reiciendis nam.",
+          "photo": "https://via.placeholder.com/640x480.png/005577?text=vitae",
+          "price": "993.87",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 22,
+          "name": "eaque",
+          "description": "Ut natus aspernatur ut et sit esse dolores. Consectetur molestias eius nesciunt suscipit accusamus maxime incidunt. Aut et sunt minus autem ullam autem est voluptatem. Et nostrum qui modi temporibus quia sequi.",
+          "photo": "https://via.placeholder.com/640x480.png/00eeee?text=illo",
+          "price": "665.47",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 23,
+          "name": "distinctio",
+          "description": "Nobis ipsa ut odio et debitis. Voluptates libero dolore dolores vitae. Culpa non saepe distinctio. Blanditiis eius omnis facilis qui sit placeat. Non quo maiores corrupti rerum sint dolorum.",
+          "photo": "https://via.placeholder.com/640x480.png/0022ff?text=temporibus",
+          "price": "730.29",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 24,
+          "name": "unde",
+          "description": "Et autem corrupti nemo tenetur. Nulla mollitia illum quae eum ipsa accusamus doloribus. Est aut necessitatibus exercitationem odit et.",
+          "photo": "https://via.placeholder.com/640x480.png/0066dd?text=quasi",
+          "price": "361.60",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 25,
+          "name": "id",
+          "description": "Non occaecati officiis dicta consequatur molestiae eaque. Velit architecto cumque ab voluptate voluptas molestiae. Ea enim molestiae consequatur enim aperiam ipsam quod explicabo. Qui reprehenderit omnis qui recusandae officia assumenda.",
+          "photo": "https://via.placeholder.com/640x480.png/0077ee?text=alias",
+          "price": "739.43",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 26,
+          "name": "dolorum",
+          "description": "Aut magnam quae accusantium ut consequuntur qui cumque. Quo natus exercitationem quae deleniti. Consequuntur voluptatem enim sit et voluptas dicta vel. Aspernatur quas sit eos voluptates.",
+          "photo": "https://via.placeholder.com/640x480.png/000088?text=illo",
+          "price": "930.76",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 27,
+          "name": "id",
+          "description": "Quo pariatur est laborum laboriosam. Debitis commodi rerum aut delectus illum architecto. Architecto enim incidunt dolorem ullam atque amet et. Soluta in totam molestias pariatur.",
+          "photo": "https://via.placeholder.com/640x480.png/000088?text=qui",
+          "price": "972.11",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 28,
+          "name": "a",
+          "description": "Perferendis esse consequuntur repudiandae ea. Qui voluptatibus animi nihil voluptas. Voluptatem sunt non explicabo quia quod laudantium possimus quia.",
+          "photo": "https://via.placeholder.com/640x480.png/0077ee?text=quia",
+          "price": "815.01",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 29,
+          "name": "magnam",
+          "description": "Temporibus est distinctio ratione fuga aut esse sit fugiat. Possimus dicta quos nostrum dolores excepturi placeat. Numquam deserunt velit facilis nam voluptatum. Ab impedit distinctio aut qui.",
+          "photo": "https://via.placeholder.com/640x480.png/0022ff?text=animi",
+          "price": "169.50",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 30,
+          "name": "eos",
+          "description": "Vitae dolores repellendus quaerat ducimus totam quas. Omnis iste recusandae voluptatum possimus et.",
+          "photo": "https://via.placeholder.com/640x480.png/001111?text=praesentium",
+          "price": "589.97",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 31,
+          "name": "soluta",
+          "description": "Mollitia at provident tempore impedit sed corporis doloremque. Ut eius aspernatur in reprehenderit excepturi omnis. Sint modi asperiores ratione dolores non est.",
+          "photo": "https://via.placeholder.com/640x480.png/0055ff?text=aperiam",
+          "price": "571.28",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 32,
+          "name": "et",
+          "description": "Officiis recusandae incidunt qui fuga numquam atque illo delectus. Provident accusamus dolores rerum voluptatem aut non ipsa. Quasi qui expedita unde ducimus qui quos.",
+          "photo": "https://via.placeholder.com/640x480.png/000000?text=ut",
+          "price": "20.38",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 33,
+          "name": "aperiam",
+          "description": "Quaerat quae soluta asperiores optio. Cupiditate culpa quia repudiandae illo voluptatem et est. Odio sit earum cupiditate quisquam quaerat ducimus.",
+          "photo": "https://via.placeholder.com/640x480.png/00bbdd?text=enim",
+          "price": "432.16",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 34,
+          "name": "sint",
+          "description": "In quia eum est consequatur autem hic. Quia aut quas aperiam aut soluta. Et vitae soluta tempore velit ipsam mollitia laboriosam.",
+          "photo": "https://via.placeholder.com/640x480.png/009900?text=enim",
+          "price": "198.44",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 35,
+          "name": "modi",
+          "description": "Nobis pariatur odio minus animi blanditiis. Temporibus recusandae expedita optio consequatur sed voluptatem ratione. At facilis delectus aut nemo omnis veniam est provident.",
+          "photo": "https://via.placeholder.com/640x480.png/00dd77?text=fugit",
+          "price": "550.95",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 36,
+          "name": "ut",
+          "description": "Qui eos voluptatibus iusto. Velit atque in voluptatem a corrupti error nobis delectus. Sint quo modi est rerum facilis quia at. Accusamus labore incidunt alias reprehenderit.",
+          "photo": "https://via.placeholder.com/640x480.png/00ff66?text=in",
+          "price": "813.23",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 37,
+          "name": "fuga",
+          "description": "Sed ducimus est sunt minus. Perferendis et ut minus vitae tenetur ea sapiente. Ipsum non possimus laboriosam molestias ducimus esse perspiciatis sint.",
+          "photo": "https://via.placeholder.com/640x480.png/007744?text=numquam",
+          "price": "791.87",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 38,
+          "name": "quod",
+          "description": "Autem sed ea numquam modi perspiciatis. Non error aut soluta repellendus eligendi qui pariatur. Facilis dolorem magnam saepe. Voluptas quidem nisi iure sit nostrum qui.",
+          "photo": "https://via.placeholder.com/640x480.png/0088bb?text=tempore",
+          "price": "114.03",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 39,
+          "name": "minima",
+          "description": "Pariatur beatae possimus totam eum possimus. Numquam et et illo. Qui eum molestiae beatae sed. Fugiat modi alias qui aut.",
+          "photo": "https://via.placeholder.com/640x480.png/006644?text=et",
+          "price": "337.91",
+          "category_id": 2,
+          "category": "exercitationem"
+        },
+        {
+          "id": 40,
+          "name": "harum",
+          "description": "Voluptatem corporis possimus possimus dolorum. Ut eveniet officiis odio. Nobis consectetur vitae eligendi officiis aspernatur corrupti. Quasi quaerat dolorem et. Dolores voluptas magnam asperiores harum.",
+          "photo": "https://via.placeholder.com/640x480.png/0099cc?text=enim",
+          "price": "587.45",
+          "category_id": 2,
+          "category": "exercitationem"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "laborum",
+      "photo": "https://via.placeholder.com/640x480.png/00eecc?text=doloribus",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 41,
+          "name": "magnam",
+          "description": "Placeat nam voluptatem recusandae ad ut. Molestias impedit autem non et. Impedit voluptas totam in ipsa voluptatem.",
+          "photo": "https://via.placeholder.com/640x480.png/0077ee?text=ipsum",
+          "price": "499.34",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 42,
+          "name": "consequatur",
+          "description": "Quis eos tempore harum impedit consequatur repudiandae facilis placeat. Numquam ipsum dolorem aut in ipsa. Id facilis rerum libero quo pariatur molestiae.",
+          "photo": "https://via.placeholder.com/640x480.png/0099cc?text=eligendi",
+          "price": "67.24",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 43,
+          "name": "eligendi",
+          "description": "In consequatur et harum nam magnam aspernatur fugiat. Suscipit aut quia molestiae optio et voluptatibus sint. Vel iusto aut iure veritatis quae et.",
+          "photo": "https://via.placeholder.com/640x480.png/005577?text=sed",
+          "price": "251.29",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 44,
+          "name": "voluptatum",
+          "description": "Dignissimos placeat libero esse non minus earum. Soluta sit ullam dolore consequatur et. Quia sapiente debitis sapiente incidunt unde ut provident.",
+          "photo": "https://via.placeholder.com/640x480.png/0000ff?text=facere",
+          "price": "91.72",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 45,
+          "name": "et",
+          "description": "Voluptas aliquid sint in at optio expedita voluptate neque. Vero magnam est maiores et. In deserunt minus saepe eligendi. Ut culpa quia earum.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb44?text=non",
+          "price": "257.20",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 46,
+          "name": "iste",
+          "description": "Corporis et tempore iusto eum cum qui. Reprehenderit aut illum sed amet. Consequatur voluptatibus voluptatem reprehenderit.",
+          "photo": "https://via.placeholder.com/640x480.png/003377?text=aliquam",
+          "price": "436.40",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 47,
+          "name": "ut",
+          "description": "Repudiandae mollitia sed ex eius odit aut beatae. Nesciunt vel officia quis tempora voluptatibus quae et. Deleniti minima deserunt molestias quibusdam voluptatem sint neque qui. Eligendi velit eveniet laudantium iusto voluptas quis.",
+          "photo": "https://via.placeholder.com/640x480.png/0044aa?text=quia",
+          "price": "977.31",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 48,
+          "name": "magnam",
+          "description": "Assumenda quidem quo alias enim. Quod eveniet dolores omnis perferendis nihil. Aut illo voluptatem id cum eos adipisci.",
+          "photo": "https://via.placeholder.com/640x480.png/004466?text=sit",
+          "price": "929.37",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 49,
+          "name": "pariatur",
+          "description": "Modi vel voluptatum eveniet rem. Consectetur quibusdam maxime excepturi ut et aut voluptatibus fugit. Sit qui quaerat sint.",
+          "photo": "https://via.placeholder.com/640x480.png/0022cc?text=officia",
+          "price": "438.89",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 50,
+          "name": "magnam",
+          "description": "Natus exercitationem doloremque consequuntur molestiae ut quidem. In incidunt illo veritatis.",
+          "photo": "https://via.placeholder.com/640x480.png/00dd55?text=similique",
+          "price": "253.37",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 51,
+          "name": "alias",
+          "description": "Aspernatur qui in autem. Quisquam est laboriosam quo aut autem incidunt. Est iure nihil quod vero perspiciatis labore voluptatem. Labore facere assumenda est laudantium aut eum eligendi.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb22?text=debitis",
+          "price": "616.12",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 52,
+          "name": "iusto",
+          "description": "Alias dolorem repellat dolores. Quo aspernatur quo impedit quod autem accusamus. Aperiam dolorem odio quo ipsum. Quam doloremque est ad esse sit.",
+          "photo": "https://via.placeholder.com/640x480.png/0055ee?text=magni",
+          "price": "838.96",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 53,
+          "name": "deleniti",
+          "description": "Iure eius rerum et commodi. Distinctio quia voluptates sapiente aliquam. Quis explicabo dolorum consequatur.",
+          "photo": "https://via.placeholder.com/640x480.png/005588?text=dolor",
+          "price": "131.92",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 54,
+          "name": "saepe",
+          "description": "Inventore id excepturi voluptas necessitatibus eaque eum aut. Nesciunt accusantium maiores dolorum alias praesentium aut voluptatem non. Et recusandae eaque eius sed. Minus quia rerum quia voluptates.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc44?text=placeat",
+          "price": "258.04",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 55,
+          "name": "eligendi",
+          "description": "Autem ea ea qui aut aliquam ipsa. Voluptatem maxime tempore dolore sunt facilis. Asperiores sed at quae perspiciatis totam quas.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc66?text=reiciendis",
+          "price": "406.51",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 56,
+          "name": "et",
+          "description": "Quam hic ex fuga atque. In repellat porro consequatur sint distinctio. Vel ratione est quasi sint. Culpa dolorum cum asperiores minima assumenda. Consequatur similique molestias expedita quo sit enim.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffee?text=suscipit",
+          "price": "343.97",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 57,
+          "name": "qui",
+          "description": "Sit voluptas tempore nihil magnam et. Ut fugit mollitia labore tempora. Dolores est dignissimos amet exercitationem voluptatem aut ut. Eos ut nemo tenetur accusantium ullam dolore soluta.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffcc?text=nostrum",
+          "price": "935.11",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 58,
+          "name": "placeat",
+          "description": "Minus mollitia sunt quo qui ipsa hic perferendis. Et sit ullam eius aliquid aperiam. Unde culpa perferendis repudiandae aut ex animi animi.",
+          "photo": "https://via.placeholder.com/640x480.png/0099ff?text=dolores",
+          "price": "650.75",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 59,
+          "name": "excepturi",
+          "description": "Earum ipsum reprehenderit aspernatur. Molestiae rerum facere ut provident.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb33?text=neque",
+          "price": "921.86",
+          "category_id": 3,
+          "category": "laborum"
+        },
+        {
+          "id": 60,
+          "name": "ut",
+          "description": "Id fugiat sed qui rerum ipsa. Tempora et dolorem recusandae pariatur deleniti nihil.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc66?text=cum",
+          "price": "212.85",
+          "category_id": 3,
+          "category": "laborum"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ab",
+      "photo": "https://via.placeholder.com/640x480.png/000000?text=in",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 61,
+          "name": "velit",
+          "description": "Aliquam sit consequatur officiis iure dolore ut. Sint non debitis quis eius molestiae voluptas est. Id explicabo est non non voluptatum.",
+          "photo": "https://via.placeholder.com/640x480.png/0000bb?text=est",
+          "price": "872.24",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 62,
+          "name": "ipsa",
+          "description": "Sunt velit quod et aspernatur perspiciatis. Cum quia molestiae minus perspiciatis. Numquam neque et impedit sequi impedit voluptate cum.",
+          "photo": "https://via.placeholder.com/640x480.png/009933?text=est",
+          "price": "159.28",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 63,
+          "name": "tempore",
+          "description": "Laudantium quo porro et explicabo neque est sunt. Atque qui et deleniti eveniet vel facere. Voluptate molestias eveniet architecto ipsam eos. At quae est nisi nulla quisquam recusandae id.",
+          "photo": "https://via.placeholder.com/640x480.png/004466?text=pariatur",
+          "price": "429.53",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 64,
+          "name": "beatae",
+          "description": "Placeat quia nulla et qui vel eligendi ad temporibus. Magni et sint soluta quidem molestiae. Aspernatur doloribus voluptatibus optio doloribus itaque consequatur.",
+          "photo": "https://via.placeholder.com/640x480.png/004466?text=sed",
+          "price": "779.52",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 65,
+          "name": "nesciunt",
+          "description": "Aut dolor incidunt similique molestias odio. Quam voluptates et sed ducimus porro maxime dolor. Aut fuga illo necessitatibus.",
+          "photo": "https://via.placeholder.com/640x480.png/000011?text=voluptatem",
+          "price": "611.99",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 66,
+          "name": "ducimus",
+          "description": "Nam et qui quos laborum veritatis voluptate omnis. Tenetur molestiae est eius porro nulla qui cum est. Minima minima beatae minima. Officia rerum velit eius officiis et. Dolorem nihil dolorem laudantium rerum voluptas enim.",
+          "photo": "https://via.placeholder.com/640x480.png/0044ff?text=id",
+          "price": "451.38",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 67,
+          "name": "sequi",
+          "description": "Praesentium quaerat ipsa laudantium quia reiciendis iste eius. Aperiam placeat id ut laboriosam. A illo cupiditate et aut dignissimos. Eos assumenda neque voluptates.",
+          "photo": "https://via.placeholder.com/640x480.png/0022ff?text=ipsum",
+          "price": "925.70",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 68,
+          "name": "veritatis",
+          "description": "Vitae a voluptate veniam et eum culpa est perferendis. Quasi nam in ab tempora odio tempora ea.",
+          "photo": "https://via.placeholder.com/640x480.png/0077aa?text=sed",
+          "price": "443.76",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 69,
+          "name": "officia",
+          "description": "Tempore sunt iste quia nobis adipisci sequi qui. Molestiae aperiam quam ab aut facere maiores natus aut.",
+          "photo": "https://via.placeholder.com/640x480.png/007755?text=et",
+          "price": "317.29",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 70,
+          "name": "magnam",
+          "description": "Ut voluptatem voluptates deleniti eligendi aliquid quam. Commodi eaque ut doloremque et ex. Vel quas modi fugit temporibus dolorum.",
+          "photo": "https://via.placeholder.com/640x480.png/00ff55?text=quo",
+          "price": "484.01",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 71,
+          "name": "vel",
+          "description": "Voluptatibus necessitatibus eius deserunt aut. Et debitis expedita veritatis. Neque dolor est sit culpa et qui odio.",
+          "photo": "https://via.placeholder.com/640x480.png/004444?text=fuga",
+          "price": "548.54",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 72,
+          "name": "quasi",
+          "description": "Et sit laboriosam possimus. Illum incidunt eos sed et sit dolorum. Aspernatur sint magni hic voluptates. Et fugiat qui quo consequatur.",
+          "photo": "https://via.placeholder.com/640x480.png/003300?text=voluptatem",
+          "price": "743.56",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 73,
+          "name": "perspiciatis",
+          "description": "Sed error aut repellendus labore. Porro dolorem et ipsa dolorem. Numquam deleniti expedita placeat itaque qui et fugit. Labore et totam distinctio blanditiis sunt. Totam dolorum id vero ullam quibusdam nesciunt id.",
+          "photo": "https://via.placeholder.com/640x480.png/000033?text=et",
+          "price": "460.43",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 74,
+          "name": "sunt",
+          "description": "Sint et sapiente ut laboriosam laborum illo corporis. Non minus omnis et occaecati sit.",
+          "photo": "https://via.placeholder.com/640x480.png/0077ff?text=vero",
+          "price": "914.22",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 75,
+          "name": "deleniti",
+          "description": "Cum odit non harum beatae. Quo ipsum commodi magni maiores neque aut. Eaque quam libero quia labore ex dolorem quis rem. Cum soluta quaerat eos recusandae ut vitae vel.",
+          "photo": "https://via.placeholder.com/640x480.png/000044?text=eos",
+          "price": "646.31",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 76,
+          "name": "corporis",
+          "description": "Ut corporis totam aliquam id consectetur dolores accusamus. Iure illo repellat laborum. Dicta voluptas natus odit reiciendis.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa66?text=qui",
+          "price": "196.89",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 77,
+          "name": "animi",
+          "description": "Voluptates nobis ratione eligendi id debitis quidem similique. Omnis veniam laborum in suscipit quo quisquam. Cum autem ex cupiditate quo. Debitis et dolor aut commodi perspiciatis ut ratione.",
+          "photo": "https://via.placeholder.com/640x480.png/006644?text=officiis",
+          "price": "119.49",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 78,
+          "name": "error",
+          "description": "Dolorem ut voluptatem officiis totam est maxime fugit consequatur. Maiores at soluta velit natus veniam. Ducimus fugit suscipit sed autem iste nisi.",
+          "photo": "https://via.placeholder.com/640x480.png/001177?text=cupiditate",
+          "price": "591.70",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 79,
+          "name": "natus",
+          "description": "Pariatur minus et unde nihil harum eum optio officiis. Vel nemo voluptatem commodi ad et laborum possimus. Id ipsa ab corporis quis.",
+          "photo": "https://via.placeholder.com/640x480.png/0055cc?text=et",
+          "price": "386.63",
+          "category_id": 4,
+          "category": "ab"
+        },
+        {
+          "id": 80,
+          "name": "sit",
+          "description": "Sed molestiae fuga ab vitae voluptatem. Quae earum quasi pariatur est. Non error aliquid incidunt voluptates commodi voluptatibus animi. Ex aut est dolores qui enim reprehenderit adipisci quidem.",
+          "photo": "https://via.placeholder.com/640x480.png/0022aa?text=assumenda",
+          "price": "816.87",
+          "category_id": 4,
+          "category": "ab"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ducimus",
+      "photo": "https://via.placeholder.com/640x480.png/00ee66?text=quia",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 81,
+          "name": "et",
+          "description": "Est occaecati laboriosam nemo iusto dolor accusamus velit. Est fugit mollitia aut ratione vel. Rerum error esse cupiditate consectetur eos quam magni. Quisquam ut consectetur atque delectus possimus.",
+          "photo": "https://via.placeholder.com/640x480.png/004477?text=exercitationem",
+          "price": "75.23",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 82,
+          "name": "earum",
+          "description": "Possimus voluptatibus placeat numquam perferendis architecto est qui. Facilis sint porro nihil assumenda. Id laborum nihil in et quos non.",
+          "photo": "https://via.placeholder.com/640x480.png/0044dd?text=dolorem",
+          "price": "831.47",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 83,
+          "name": "eum",
+          "description": "Occaecati quae ut ea velit. Sint quod facere sequi quia incidunt. Rerum aliquid dolores ut temporibus expedita repellendus minima.",
+          "photo": "https://via.placeholder.com/640x480.png/003355?text=sit",
+          "price": "107.39",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 84,
+          "name": "enim",
+          "description": "Ut voluptate modi quas sint quis. Quos sint est quas tempora magni natus voluptatibus ducimus. Perferendis rem dolores ex consequuntur quo eius eos minima.",
+          "photo": "https://via.placeholder.com/640x480.png/0055ee?text=harum",
+          "price": "82.32",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 85,
+          "name": "corporis",
+          "description": "Labore possimus excepturi corporis possimus. Qui omnis maiores rerum eaque at. Beatae inventore molestiae adipisci. Ea et ducimus velit sint nisi fugit.",
+          "photo": "https://via.placeholder.com/640x480.png/009977?text=optio",
+          "price": "800.19",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 86,
+          "name": "incidunt",
+          "description": "Debitis rem officia nesciunt nostrum occaecati. Et quis quia omnis maxime voluptatum neque.",
+          "photo": "https://via.placeholder.com/640x480.png/00ccbb?text=dicta",
+          "price": "91.96",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 87,
+          "name": "voluptate",
+          "description": "Sed quas et tenetur voluptatem expedita atque. Cumque voluptatem odio laudantium. Dignissimos et iure hic vel sapiente. Non qui aut exercitationem architecto dolor eum. Tenetur sed nobis alias consequatur fugit consequuntur.",
+          "photo": "https://via.placeholder.com/640x480.png/007788?text=sint",
+          "price": "826.74",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 88,
+          "name": "cumque",
+          "description": "Libero amet reprehenderit tempora id. Officia ut expedita repellat ab quo ut.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee00?text=quis",
+          "price": "311.44",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 89,
+          "name": "ipsa",
+          "description": "Iure et cumque qui quos. Suscipit ut reprehenderit tenetur excepturi quis excepturi eius rem. Est aliquam dicta omnis voluptas exercitationem perferendis. Consectetur laudantium et dolores.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa33?text=enim",
+          "price": "13.14",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 90,
+          "name": "unde",
+          "description": "Sint at rerum enim fugiat ipsam cum expedita. Et vel minima fuga debitis autem laboriosam consequuntur. Ullam eos aut corrupti natus ipsum est. Saepe tenetur repellat ex reprehenderit esse natus velit.",
+          "photo": "https://via.placeholder.com/640x480.png/005566?text=voluptatem",
+          "price": "474.62",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 91,
+          "name": "neque",
+          "description": "Hic possimus delectus expedita. Autem nostrum consequatur suscipit possimus ut et alias. Dicta perspiciatis commodi tenetur ab dolorem.",
+          "photo": "https://via.placeholder.com/640x480.png/0022cc?text=velit",
+          "price": "130.19",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 92,
+          "name": "vel",
+          "description": "Et nulla at voluptatibus ut saepe ut est. Quia eius quod velit sapiente cupiditate. Repellendus laborum sit corporis at ipsam nam unde.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc88?text=consequatur",
+          "price": "717.77",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 93,
+          "name": "temporibus",
+          "description": "Deserunt sit explicabo voluptatibus voluptatem velit quasi non. Eos cupiditate dolorem neque possimus est iste voluptatem. Laudantium debitis molestias sit minus iste quas impedit.",
+          "photo": "https://via.placeholder.com/640x480.png/00dd22?text=delectus",
+          "price": "703.57",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 94,
+          "name": "eum",
+          "description": "Molestias adipisci fuga omnis asperiores aut saepe. Nisi quo molestiae iste ex porro aut. Architecto laboriosam quae dolore est. Veniam qui culpa provident blanditiis autem explicabo consequatur.",
+          "photo": "https://via.placeholder.com/640x480.png/00dd99?text=saepe",
+          "price": "883.85",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 95,
+          "name": "dicta",
+          "description": "Magni et voluptatum ut cumque corrupti. Quibusdam voluptatum ut in eius natus eaque. Ipsum et est consequatur et.",
+          "photo": "https://via.placeholder.com/640x480.png/004411?text=et",
+          "price": "951.05",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 96,
+          "name": "non",
+          "description": "Qui laborum qui est harum corrupti aut. Reprehenderit maiores officia quisquam incidunt recusandae quia. Laborum aut quis fuga doloribus alias minus laboriosam.",
+          "photo": "https://via.placeholder.com/640x480.png/0088cc?text=autem",
+          "price": "118.99",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 97,
+          "name": "rem",
+          "description": "Nemo voluptas quo et eos a. Accusantium ea aut et. Recusandae nostrum ipsam doloribus aut. Sed distinctio ea earum rerum.",
+          "photo": "https://via.placeholder.com/640x480.png/005533?text=temporibus",
+          "price": "768.56",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 98,
+          "name": "voluptatem",
+          "description": "Voluptates laudantium explicabo asperiores dicta et rem hic. Dolore id repellendus dignissimos est qui sint. Et officia ut laboriosam impedit adipisci aperiam minus.",
+          "photo": "https://via.placeholder.com/640x480.png/009933?text=in",
+          "price": "740.50",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 99,
+          "name": "dolores",
+          "description": "Molestias rerum eligendi et aut. Quibusdam ut ducimus nihil consequatur maxime enim. Voluptas in corrupti porro. Modi minus delectus dolor enim maxime voluptatem.",
+          "photo": "https://via.placeholder.com/640x480.png/0066bb?text=magnam",
+          "price": "191.35",
+          "category_id": 5,
+          "category": "ducimus"
+        },
+        {
+          "id": 100,
+          "name": "dignissimos",
+          "description": "Voluptas voluptas id quo perferendis. Odio est quos soluta voluptas rerum harum. Laborum ut repudiandae maiores veritatis consectetur accusantium. Aut alias aut sequi.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb00?text=libero",
+          "price": "763.37",
+          "category_id": 5,
+          "category": "ducimus"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "vel",
+      "photo": "https://via.placeholder.com/640x480.png/007722?text=consequuntur",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 101,
+          "name": "molestiae",
+          "description": "Est quam eos et. Id amet et similique non sed ea dignissimos.",
+          "photo": "https://via.placeholder.com/640x480.png/0033bb?text=qui",
+          "price": "976.07",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 102,
+          "name": "dolorem",
+          "description": "Porro rerum recusandae modi atque est praesentium debitis. Esse architecto odio amet sequi numquam. Hic asperiores voluptatem beatae aut consequatur. Et sit cupiditate vel adipisci ut.",
+          "photo": "https://via.placeholder.com/640x480.png/0088cc?text=totam",
+          "price": "771.20",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 103,
+          "name": "cupiditate",
+          "description": "Laboriosam cupiditate tempore voluptatem placeat facilis et. Corrupti quia consectetur ipsam iure commodi. Dignissimos delectus tenetur maiores aut quia distinctio.",
+          "photo": "https://via.placeholder.com/640x480.png/008888?text=eligendi",
+          "price": "79.10",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 104,
+          "name": "quasi",
+          "description": "Id esse tenetur in enim minus iste itaque. Veritatis officiis dolor animi facere. Ipsam unde aut ut quo consequatur doloremque. Optio nulla et sed nobis suscipit minima beatae quia.",
+          "photo": "https://via.placeholder.com/640x480.png/0011dd?text=unde",
+          "price": "469.85",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 105,
+          "name": "asperiores",
+          "description": "Quidem earum distinctio recusandae sit sapiente nihil alias. Blanditiis veniam aut ea omnis. Fugit quas repellendus ad dolores facere est atque. Id magni id quia velit et explicabo.",
+          "photo": "https://via.placeholder.com/640x480.png/0011aa?text=natus",
+          "price": "705.24",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 106,
+          "name": "incidunt",
+          "description": "Dicta consequatur non possimus saepe consequatur iure quia. Enim in mollitia hic quaerat. Labore officia et soluta ex et atque nihil.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc55?text=commodi",
+          "price": "845.74",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 107,
+          "name": "quos",
+          "description": "Quisquam omnis architecto a qui. Omnis tempore voluptatem eum doloremque rerum dignissimos hic totam. Quis doloremque est aperiam et nisi ut autem.",
+          "photo": "https://via.placeholder.com/640x480.png/002288?text=fugit",
+          "price": "263.68",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 108,
+          "name": "ducimus",
+          "description": "At voluptas quis omnis impedit cupiditate eos. Ducimus suscipit consequuntur voluptates ut consequuntur ratione mollitia. Ex dolores earum occaecati sunt doloremque unde enim. Facilis est magnam inventore inventore excepturi et est. Sapiente aliquam similique laboriosam.",
+          "photo": "https://via.placeholder.com/640x480.png/0044aa?text=praesentium",
+          "price": "58.58",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 109,
+          "name": "asperiores",
+          "description": "Doloribus sint iure et aliquam recusandae praesentium voluptas rerum. Molestiae incidunt aspernatur harum voluptates enim. Eius quis voluptatem fuga quos.",
+          "photo": "https://via.placeholder.com/640x480.png/006611?text=voluptas",
+          "price": "426.50",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 110,
+          "name": "quo",
+          "description": "Delectus aut adipisci aut id blanditiis iure. Cumque asperiores dicta sit voluptatibus sint.",
+          "photo": "https://via.placeholder.com/640x480.png/006677?text=in",
+          "price": "551.57",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 111,
+          "name": "sit",
+          "description": "Sunt nostrum alias aut. Blanditiis ad quaerat nihil saepe eius maiores. Velit et dignissimos cumque quia quam assumenda explicabo ad.",
+          "photo": "https://via.placeholder.com/640x480.png/0033ee?text=quasi",
+          "price": "329.34",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 112,
+          "name": "est",
+          "description": "Quos illo ut aut asperiores. Dolor rerum perspiciatis eaque laboriosam molestias. Dignissimos ut expedita aut. Totam quis sunt dolorem quae officia quae. Dolorem iure quia pariatur.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa99?text=ut",
+          "price": "190.03",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 113,
+          "name": "dolor",
+          "description": "Voluptas odit similique similique et distinctio. Molestias animi nesciunt harum. Error dolorem iste dolorum nemo iusto. Quasi maiores rerum consequuntur tenetur.",
+          "photo": "https://via.placeholder.com/640x480.png/00ff44?text=eos",
+          "price": "949.10",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 114,
+          "name": "eos",
+          "description": "Deserunt est ea minima explicabo similique. Dolores maiores cum possimus error aut. At eum aut hic aspernatur rerum minima. Maiores sint quasi commodi et in.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb66?text=optio",
+          "price": "251.26",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 115,
+          "name": "est",
+          "description": "Enim nobis voluptas consequatur adipisci. Odio maxime molestias qui nulla iusto quam. Deleniti sint architecto ducimus. Nisi sint illo ut.",
+          "photo": "https://via.placeholder.com/640x480.png/0044dd?text=esse",
+          "price": "787.40",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 116,
+          "name": "rerum",
+          "description": "Cum voluptate quae dolor velit omnis ut sit. Qui tempora sunt omnis sapiente totam. Vel rerum cumque magnam vero sit cupiditate. Rerum rerum at sed vel. Quo unde error accusantium corporis aut dolorum sed consequatur.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa11?text=incidunt",
+          "price": "830.19",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 117,
+          "name": "molestiae",
+          "description": "Unde ea aspernatur libero ducimus voluptatem eos. Omnis eaque tempora quia facere ea dignissimos repudiandae. Odio enim assumenda saepe accusantium voluptas maiores et. Et vel sed rerum vel debitis.",
+          "photo": "https://via.placeholder.com/640x480.png/009955?text=dolores",
+          "price": "499.03",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 118,
+          "name": "aut",
+          "description": "Sit maiores eaque autem aut molestiae officiis. Quisquam ut dolor non expedita esse esse. Eveniet ut et adipisci tempore.",
+          "photo": "https://via.placeholder.com/640x480.png/0011ff?text=aliquam",
+          "price": "509.68",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 119,
+          "name": "esse",
+          "description": "Consequatur perspiciatis voluptatum sint aut quaerat suscipit ut voluptas. Natus vel optio quia libero. Ut soluta est unde labore quos placeat. Alias et praesentium sunt ut tenetur vel laudantium optio.",
+          "photo": "https://via.placeholder.com/640x480.png/005599?text=quaerat",
+          "price": "603.53",
+          "category_id": 6,
+          "category": "vel"
+        },
+        {
+          "id": 120,
+          "name": "ut",
+          "description": "Iusto tenetur pariatur neque provident magni consequatur et omnis. Non ex voluptatem qui et qui tempora. Rem vel quod nobis expedita et enim eum.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc22?text=alias",
+          "price": "454.77",
+          "category_id": 6,
+          "category": "vel"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "et",
+      "photo": "https://via.placeholder.com/640x480.png/0088bb?text=qui",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 121,
+          "name": "tempora",
+          "description": "Blanditiis culpa vero similique et. Corporis dolores veniam ipsa cupiditate. Quam qui natus incidunt veritatis exercitationem in. Laboriosam facere amet porro at fugiat et.",
+          "photo": "https://via.placeholder.com/640x480.png/009999?text=aspernatur",
+          "price": "851.33",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 122,
+          "name": "itaque",
+          "description": "Voluptatem consequatur nostrum nemo repudiandae hic. Rerum velit libero repellat nam nemo consequatur quia. Et perspiciatis rerum est accusantium aliquid. Culpa nihil maxime quia explicabo.",
+          "photo": "https://via.placeholder.com/640x480.png/007744?text=accusamus",
+          "price": "97.64",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 123,
+          "name": "nobis",
+          "description": "Aut inventore natus amet facere qui ad. Aliquam at voluptas reiciendis id molestias non unde reprehenderit. Deleniti consequatur est eum quis consectetur.",
+          "photo": "https://via.placeholder.com/640x480.png/005511?text=nostrum",
+          "price": "296.30",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 124,
+          "name": "eligendi",
+          "description": "Commodi debitis saepe quia voluptatem eius. Quia architecto pariatur autem culpa. Laudantium distinctio ut animi ipsa beatae. Repellat dignissimos voluptates magnam soluta error.",
+          "photo": "https://via.placeholder.com/640x480.png/002288?text=cumque",
+          "price": "733.99",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 125,
+          "name": "labore",
+          "description": "Quos odit quam non dolor sint nam voluptatem. A possimus quo qui quod nihil ratione officiis soluta. Velit eaque illo dolore omnis placeat a nihil. Adipisci id vitae unde ipsam delectus molestiae est porro. Illo provident ut ullam et voluptates eaque sunt.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb11?text=rem",
+          "price": "350.78",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 126,
+          "name": "placeat",
+          "description": "Et consectetur et dicta labore dolor. Aut natus distinctio inventore delectus saepe. Et enim sunt nobis. Expedita iure ratione reiciendis in voluptate.",
+          "photo": "https://via.placeholder.com/640x480.png/009966?text=praesentium",
+          "price": "616.85",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 127,
+          "name": "perspiciatis",
+          "description": "Illum qui sed dignissimos voluptas dolores nesciunt quo. Labore et earum harum eos. Iure libero enim repudiandae harum iure sunt aperiam. Expedita qui nisi sit nesciunt.",
+          "photo": "https://via.placeholder.com/640x480.png/003344?text=illo",
+          "price": "910.47",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 128,
+          "name": "dicta",
+          "description": "Illum omnis non earum est dolorum quisquam voluptas. Et corrupti totam quo voluptatem exercitationem qui. Qui delectus tempore est unde laborum et omnis.",
+          "photo": "https://via.placeholder.com/640x480.png/009977?text=molestiae",
+          "price": "909.12",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 129,
+          "name": "dolorum",
+          "description": "Veniam quis ipsum consectetur dicta voluptas nemo facere. Est vero dignissimos nihil. Reiciendis ex et vero nobis dolore sunt est quo.",
+          "photo": "https://via.placeholder.com/640x480.png/0033bb?text=harum",
+          "price": "151.78",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 130,
+          "name": "et",
+          "description": "Deserunt consequatur aut vitae doloremque ea nulla. Repudiandae explicabo laboriosam quis voluptatibus facilis nam. Temporibus quae iure delectus dolorum labore voluptates. Eum amet enim nisi numquam dolorum. Omnis consequatur tempore sint optio voluptatem voluptas.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa99?text=est",
+          "price": "326.92",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 131,
+          "name": "ut",
+          "description": "Facilis consequuntur repellendus amet delectus quas tempora. Quam reiciendis inventore earum totam rerum quibusdam suscipit laboriosam. Qui adipisci in quas repellat. Exercitationem aliquid est consequatur soluta.",
+          "photo": "https://via.placeholder.com/640x480.png/005588?text=et",
+          "price": "823.95",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 132,
+          "name": "cumque",
+          "description": "Commodi veniam enim et. Eum eos non aspernatur enim unde qui. Nobis facilis est neque nostrum consectetur. Quos voluptas est nemo ut.",
+          "photo": "https://via.placeholder.com/640x480.png/00eedd?text=quod",
+          "price": "533.42",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 133,
+          "name": "qui",
+          "description": "Porro dicta qui ad tenetur consequuntur occaecati. Veniam aspernatur facere quae. Enim ut nam distinctio vitae.",
+          "photo": "https://via.placeholder.com/640x480.png/005555?text=porro",
+          "price": "961.61",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 134,
+          "name": "qui",
+          "description": "Maxime non dolorem totam vitae aspernatur. Distinctio sed voluptas consequatur molestiae architecto. Voluptatum esse error et.",
+          "photo": "https://via.placeholder.com/640x480.png/0077dd?text=totam",
+          "price": "66.34",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 135,
+          "name": "sint",
+          "description": "Autem minus quasi consequatur. Similique et qui perspiciatis perspiciatis aut dolores nemo. Et alias id qui vero itaque laboriosam beatae. Voluptatibus voluptatum repellat saepe molestias ipsum quis.",
+          "photo": "https://via.placeholder.com/640x480.png/0066cc?text=quibusdam",
+          "price": "665.77",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 136,
+          "name": "totam",
+          "description": "Quia praesentium soluta eius quis quibusdam repellat aliquam cum. Consequatur totam pariatur est nam saepe rerum occaecati. Possimus voluptatem sunt ratione rerum. Quaerat sed repudiandae ea ad placeat doloribus.",
+          "photo": "https://via.placeholder.com/640x480.png/005566?text=sit",
+          "price": "78.53",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 137,
+          "name": "dolorem",
+          "description": "Mollitia sunt non iste dolorum. Minima facilis aut illum aliquam. Rerum aut expedita sit iure aut. Possimus qui quo ipsum in.",
+          "photo": "https://via.placeholder.com/640x480.png/00aaaa?text=rem",
+          "price": "560.31",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 138,
+          "name": "ab",
+          "description": "Quia qui esse commodi reiciendis aut eveniet aspernatur voluptates. Ut consectetur earum est modi sit animi. Culpa qui sint quia officia distinctio tempora exercitationem.",
+          "photo": "https://via.placeholder.com/640x480.png/0099cc?text=deserunt",
+          "price": "907.33",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 139,
+          "name": "dolores",
+          "description": "Est nihil molestias voluptas quasi alias. Qui occaecati enim et blanditiis sunt velit repudiandae. Eum nemo facilis qui possimus eligendi quasi.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb11?text=voluptas",
+          "price": "428.21",
+          "category_id": 7,
+          "category": "et"
+        },
+        {
+          "id": 140,
+          "name": "omnis",
+          "description": "Perferendis tenetur et et sit quae. Voluptatum ut non quia rem. Et deserunt perferendis itaque et soluta sit.",
+          "photo": "https://via.placeholder.com/640x480.png/0022aa?text=perspiciatis",
+          "price": "524.61",
+          "category_id": 7,
+          "category": "et"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "quia",
+      "photo": "https://via.placeholder.com/640x480.png/008833?text=ab",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 141,
+          "name": "est",
+          "description": "Quidem et et ab amet sunt officia eligendi. Ad dicta eius quam. Harum ut similique animi nostrum distinctio officia. Animi quis incidunt laborum ratione enim.",
+          "photo": "https://via.placeholder.com/640x480.png/0088ff?text=illo",
+          "price": "404.65",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 142,
+          "name": "aliquam",
+          "description": "Facere sit autem eos omnis qui modi. Deserunt minus molestiae aut est. A harum et a quasi vel quia sed.",
+          "photo": "https://via.placeholder.com/640x480.png/006600?text=illo",
+          "price": "808.95",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 143,
+          "name": "nam",
+          "description": "A officia vero eveniet sequi nam architecto ut. Ut reiciendis ad occaecati quae. Corporis minima qui non quaerat at ipsam provident rerum.",
+          "photo": "https://via.placeholder.com/640x480.png/004488?text=enim",
+          "price": "236.60",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 144,
+          "name": "mollitia",
+          "description": "Magnam est atque voluptatibus et. Quia natus id minima excepturi doloremque blanditiis non. Minima maiores dolore sit sequi. Fugiat autem eos blanditiis quia rerum.",
+          "photo": "https://via.placeholder.com/640x480.png/009988?text=maxime",
+          "price": "79.05",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 145,
+          "name": "et",
+          "description": "Veritatis sapiente ut illo fugit rerum eos in. Rerum quisquam enim iste repellat itaque sit ut. Ipsum quam architecto dolor veniam quo laboriosam quia. Illum sit et repellat sapiente provident libero.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc88?text=omnis",
+          "price": "712.68",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 146,
+          "name": "quaerat",
+          "description": "Qui nostrum consequatur eum est inventore repudiandae modi. Incidunt tenetur cumque architecto. Aliquid dolores reprehenderit sit. Reiciendis in inventore ducimus ipsa sequi veritatis debitis.",
+          "photo": "https://via.placeholder.com/640x480.png/0000aa?text=dolorem",
+          "price": "127.36",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 147,
+          "name": "magni",
+          "description": "Ut ipsa delectus et ad id vero. Animi ea recusandae natus ut et. Reiciendis qui illo suscipit quo necessitatibus eveniet occaecati. Sunt aut illo aliquid consectetur. Eaque nisi consequatur sint minus quo qui et.",
+          "photo": "https://via.placeholder.com/640x480.png/008833?text=est",
+          "price": "623.03",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 148,
+          "name": "est",
+          "description": "Aliquam omnis rerum voluptatibus eos et totam quidem dolores. Dolore libero fuga tempora quis et repellat. Culpa qui molestiae voluptas ut quod omnis. Et similique et totam error quos maiores atque. Et commodi libero exercitationem aut enim temporibus est.",
+          "photo": "https://via.placeholder.com/640x480.png/0077dd?text=repellendus",
+          "price": "723.24",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 149,
+          "name": "fugiat",
+          "description": "Quidem ad corporis odit eum. Veritatis ut impedit et quia nostrum. Ex deleniti alias enim.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee88?text=est",
+          "price": "816.78",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 150,
+          "name": "ea",
+          "description": "Amet similique magnam consequatur vero aut. Assumenda et impedit aperiam sunt. Omnis nihil ratione animi perferendis. Qui voluptas corporis alias rerum.",
+          "photo": "https://via.placeholder.com/640x480.png/005599?text=modi",
+          "price": "561.91",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 151,
+          "name": "eaque",
+          "description": "Voluptatem vero quia recusandae amet eos consequatur fuga omnis. Autem sint natus assumenda ut perferendis quia placeat. Quaerat impedit sequi quod. Assumenda vitae exercitationem unde aut ullam et sint.",
+          "photo": "https://via.placeholder.com/640x480.png/004455?text=nisi",
+          "price": "62.73",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 152,
+          "name": "qui",
+          "description": "Autem nobis eum impedit alias et dolor. Aliquid ipsa et quibusdam quibusdam alias. Et illo nemo facilis et ad ea.",
+          "photo": "https://via.placeholder.com/640x480.png/003399?text=repellat",
+          "price": "251.34",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 153,
+          "name": "sit",
+          "description": "Dignissimos dolores animi molestiae suscipit aut minima suscipit. Aut et dicta architecto ducimus molestiae sunt. Voluptatem illum eaque in esse enim.",
+          "photo": "https://via.placeholder.com/640x480.png/0000cc?text=non",
+          "price": "306.78",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 154,
+          "name": "itaque",
+          "description": "Accusantium veritatis cum et quia officiis modi corporis. Eligendi aliquid eaque quo labore optio optio. Assumenda blanditiis tempora sequi iure et nemo porro voluptas. Est consequatur qui sit. Accusantium quo nihil deserunt fugit ut.",
+          "photo": "https://via.placeholder.com/640x480.png/000022?text=facere",
+          "price": "689.77",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 155,
+          "name": "cupiditate",
+          "description": "Praesentium autem eos laboriosam autem sint quos. Sit aut iste exercitationem laborum. Repellendus fugiat perferendis totam recusandae optio. Sunt dicta maiores ut unde eum reprehenderit.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc88?text=et",
+          "price": "716.82",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 156,
+          "name": "rerum",
+          "description": "Quo tempora ea ut minima voluptatibus velit. Qui libero aut nam doloremque rerum inventore voluptate. Corrupti excepturi et commodi quia voluptatum ut eum. Et recusandae culpa sequi. Iste voluptas aperiam aut maiores ab est.",
+          "photo": "https://via.placeholder.com/640x480.png/00ff44?text=nostrum",
+          "price": "813.40",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 157,
+          "name": "laboriosam",
+          "description": "Quia consectetur labore facilis libero minus eos quae. Eveniet dolorem minus facere. Doloremque sunt facilis nostrum quod et.",
+          "photo": "https://via.placeholder.com/640x480.png/00eedd?text=id",
+          "price": "1.29",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 158,
+          "name": "rerum",
+          "description": "Ut explicabo reiciendis itaque quia et provident nobis. Aut consequuntur illum quasi quo nihil nihil. Sit quia qui est.",
+          "photo": "https://via.placeholder.com/640x480.png/001177?text=deleniti",
+          "price": "591.98",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 159,
+          "name": "quibusdam",
+          "description": "Quae quis quod ipsam ipsum. Qui non voluptate deleniti dicta rerum magnam. Ipsam eos non et voluptatem ut. Aut harum rem qui consequuntur rerum labore.",
+          "photo": "https://via.placeholder.com/640x480.png/000099?text=dolor",
+          "price": "840.50",
+          "category_id": 8,
+          "category": "quia"
+        },
+        {
+          "id": 160,
+          "name": "et",
+          "description": "Quia facere facilis corporis unde. Commodi quasi eaque autem eos aliquid fugit ipsam. Suscipit deleniti et nisi. Voluptas quas expedita officiis voluptas qui dolor dolore.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee44?text=et",
+          "price": "970.27",
+          "category_id": 8,
+          "category": "quia"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "voluptates",
+      "photo": "https://via.placeholder.com/640x480.png/006644?text=iste",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 161,
+          "name": "voluptatem",
+          "description": "Ut molestias doloribus aliquam quia. Beatae ipsum consequatur voluptas dolor cumque aliquam eos. Et consequatur maxime non tempore cum suscipit ut.",
+          "photo": "https://via.placeholder.com/640x480.png/003366?text=eum",
+          "price": "551.87",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 162,
+          "name": "odit",
+          "description": "Laudantium facilis quae et iure praesentium dicta. Vel quia et est corrupti. Fugit veniam natus voluptatem.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb00?text=atque",
+          "price": "432.31",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 163,
+          "name": "voluptatem",
+          "description": "Sed non dolor esse eum debitis numquam. Dolorem perferendis ducimus dolores non explicabo et assumenda. Delectus consequatur dolores et quisquam.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee88?text=perspiciatis",
+          "price": "616.87",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 164,
+          "name": "et",
+          "description": "Necessitatibus tempore dolor cum officia est eum rerum facere. Perspiciatis consectetur nam ut aut temporibus. Natus amet vel ab sed.",
+          "photo": "https://via.placeholder.com/640x480.png/003344?text=iusto",
+          "price": "231.81",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 165,
+          "name": "consequatur",
+          "description": "Ipsum et ipsam ab quibusdam sit veniam. Qui quasi ipsum tempore enim.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffaa?text=repudiandae",
+          "price": "856.62",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 166,
+          "name": "odio",
+          "description": "Dolorum voluptate qui sunt. Deserunt iste rem error provident. Et similique at accusamus debitis minima.",
+          "photo": "https://via.placeholder.com/640x480.png/0055cc?text=voluptatibus",
+          "price": "70.34",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 167,
+          "name": "adipisci",
+          "description": "Ab corporis unde illum aliquid magni nulla hic. Laudantium sed occaecati quisquam voluptatum molestiae. Ad quis corporis ut est molestiae. Ut voluptatem quos exercitationem sapiente sed assumenda alias.",
+          "photo": "https://via.placeholder.com/640x480.png/0099aa?text=veritatis",
+          "price": "105.63",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 168,
+          "name": "et",
+          "description": "Ex labore voluptatibus architecto ut similique voluptas iusto. Aliquam soluta quisquam culpa totam natus nulla quis. Nihil et ullam laborum odio quaerat sit placeat. Repellat dignissimos quisquam eveniet non quas.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa77?text=nulla",
+          "price": "120.38",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 169,
+          "name": "consequatur",
+          "description": "Recusandae qui sit qui ea. Quis nihil eum veniam veritatis dolorem. Id officiis vero deleniti deserunt eos.",
+          "photo": "https://via.placeholder.com/640x480.png/009944?text=cumque",
+          "price": "23.94",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 170,
+          "name": "et",
+          "description": "Voluptatem excepturi et earum ut culpa. Ut atque voluptatem harum eveniet et cum omnis. Sed ut debitis ut sapiente. Illum quia corrupti adipisci.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffaa?text=quisquam",
+          "price": "251.86",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 171,
+          "name": "qui",
+          "description": "Sed quam amet tenetur error totam quisquam. Ut nisi non id culpa. Qui incidunt rerum aut unde. Eum incidunt laudantium voluptates magnam.",
+          "photo": "https://via.placeholder.com/640x480.png/0011cc?text=omnis",
+          "price": "162.13",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 172,
+          "name": "pariatur",
+          "description": "Quia porro facere distinctio ipsum. Quo eligendi aut ut impedit. Reprehenderit sint incidunt rerum tenetur accusantium rerum minus. Aspernatur occaecati molestias aliquam magnam similique cumque.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee66?text=officia",
+          "price": "971.51",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 173,
+          "name": "eius",
+          "description": "Doloremque occaecati quis aliquam dolorum quia rerum. Architecto molestiae voluptas deleniti qui fugit ex. Alias nisi et deserunt ipsam aut autem et rerum. Labore dolores repudiandae accusantium nam accusantium laborum beatae.",
+          "photo": "https://via.placeholder.com/640x480.png/005544?text=odit",
+          "price": "646.59",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 174,
+          "name": "laboriosam",
+          "description": "Harum facere dolore voluptates consequatur neque earum accusantium. Magnam blanditiis fugit iure magnam aspernatur. Debitis veritatis quibusdam est.",
+          "photo": "https://via.placeholder.com/640x480.png/0055ff?text=corrupti",
+          "price": "203.66",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 175,
+          "name": "a",
+          "description": "Laborum nesciunt tenetur non quis cumque consectetur. Fugiat velit distinctio accusamus vero qui cupiditate. Atque quisquam reiciendis illo modi ipsum.",
+          "photo": "https://via.placeholder.com/640x480.png/00bb88?text=libero",
+          "price": "162.34",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 176,
+          "name": "animi",
+          "description": "Quia autem officia consequatur dolores ullam. Molestiae temporibus consequatur blanditiis commodi. Id velit rerum non incidunt doloremque. Neque hic assumenda id.",
+          "photo": "https://via.placeholder.com/640x480.png/004477?text=labore",
+          "price": "399.89",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 177,
+          "name": "ut",
+          "description": "Tempora eveniet voluptas repellat tempore maiores. Consectetur unde quod nisi ratione quibusdam. Et perspiciatis qui alias dignissimos assumenda fugit cum.",
+          "photo": "https://via.placeholder.com/640x480.png/008822?text=eos",
+          "price": "551.31",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 178,
+          "name": "qui",
+          "description": "Aspernatur dolorem omnis tempora ut rerum dignissimos quis. Est officiis ipsam itaque occaecati adipisci maxime. Ea vel id dicta quo molestias.",
+          "photo": "https://via.placeholder.com/640x480.png/0000aa?text=odit",
+          "price": "375.96",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 179,
+          "name": "in",
+          "description": "Necessitatibus praesentium debitis omnis vitae. Facere nihil assumenda pariatur molestiae voluptas. Sapiente magni debitis provident sapiente. Explicabo est molestias temporibus similique adipisci non sed.",
+          "photo": "https://via.placeholder.com/640x480.png/006611?text=neque",
+          "price": "418.51",
+          "category_id": 9,
+          "category": "voluptates"
+        },
+        {
+          "id": 180,
+          "name": "magni",
+          "description": "Et odio voluptate quis. In molestiae totam ea quia. Est voluptas atque architecto non. Est doloremque iure qui sit.",
+          "photo": "https://via.placeholder.com/640x480.png/00ff55?text=reprehenderit",
+          "price": "501.92",
+          "category_id": 9,
+          "category": "voluptates"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "fugit",
+      "photo": "https://via.placeholder.com/640x480.png/007744?text=ut",
+      "total_items": 20,
+      "popularity": "7 out of 10",
+      "items": [
+        {
+          "id": 181,
+          "name": "possimus",
+          "description": "Omnis iure voluptas et et vitae voluptatibus fugit accusantium. Dolorem ipsam adipisci qui vel autem non. Natus tempore harum repellendus quasi quas error quis.",
+          "photo": "https://via.placeholder.com/640x480.png/0055aa?text=blanditiis",
+          "price": "19.77",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 182,
+          "name": "quisquam",
+          "description": "Molestias voluptatibus possimus expedita quidem nulla. Est voluptatibus velit distinctio et doloribus. Eum quia distinctio voluptatem culpa.",
+          "photo": "https://via.placeholder.com/640x480.png/005577?text=nihil",
+          "price": "209.08",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 183,
+          "name": "porro",
+          "description": "Sunt fuga est omnis. Rem sunt cumque repellendus voluptates ut. Iusto in quia impedit.",
+          "photo": "https://via.placeholder.com/640x480.png/0077cc?text=voluptatibus",
+          "price": "208.64",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 184,
+          "name": "et",
+          "description": "Facilis modi beatae voluptas voluptatem esse. Asperiores sint natus repudiandae est.",
+          "photo": "https://via.placeholder.com/640x480.png/0022aa?text=magnam",
+          "price": "516.04",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 185,
+          "name": "mollitia",
+          "description": "Sit asperiores voluptatem voluptatem facere. Aperiam tenetur laudantium quo sapiente. Aut possimus itaque pariatur odit facere incidunt excepturi.",
+          "photo": "https://via.placeholder.com/640x480.png/00ffdd?text=aspernatur",
+          "price": "902.01",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 186,
+          "name": "excepturi",
+          "description": "Possimus quo ducimus quia quasi possimus et enim facilis. Et dolorum odio nisi quaerat dolorum molestiae. Deserunt eum esse neque inventore et.",
+          "photo": "https://via.placeholder.com/640x480.png/00ddee?text=eos",
+          "price": "843.82",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 187,
+          "name": "est",
+          "description": "Voluptatum illo sit voluptatum rerum provident ullam. Nobis et iste minima corrupti est voluptatem earum. Quia vitae libero accusantium quis nostrum.",
+          "photo": "https://via.placeholder.com/640x480.png/007755?text=et",
+          "price": "729.57",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 188,
+          "name": "et",
+          "description": "Corporis possimus corrupti quasi et. Neque quis autem amet animi quae et ratione. Quis quisquam ad exercitationem quia vitae sunt illo quisquam.",
+          "photo": "https://via.placeholder.com/640x480.png/005599?text=suscipit",
+          "price": "92.81",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 189,
+          "name": "voluptates",
+          "description": "Consequatur eum quo ad ut temporibus. Quaerat hic et nemo aliquid tempora dolor ducimus. Voluptas ipsam ut illum labore doloribus.",
+          "photo": "https://via.placeholder.com/640x480.png/004499?text=quae",
+          "price": "458.42",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 190,
+          "name": "veniam",
+          "description": "Nesciunt sed ullam sint omnis alias. Molestiae sint sit nihil deleniti. Et est culpa eos ullam recusandae. Maiores eveniet ea sit corporis quam voluptas.",
+          "photo": "https://via.placeholder.com/640x480.png/003399?text=repellat",
+          "price": "741.51",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 191,
+          "name": "voluptatibus",
+          "description": "Praesentium corporis culpa odio debitis quia culpa. Pariatur enim vel enim qui omnis. Commodi temporibus autem dolor consequatur dolor est. Et blanditiis blanditiis sit.",
+          "photo": "https://via.placeholder.com/640x480.png/0011ff?text=nihil",
+          "price": "595.29",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 192,
+          "name": "veniam",
+          "description": "Et eveniet iusto corporis officiis rerum ipsa modi. Sit nemo magnam cumque. Et voluptate incidunt quibusdam sit.",
+          "photo": "https://via.placeholder.com/640x480.png/00ee66?text=vel",
+          "price": "356.07",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 193,
+          "name": "sint",
+          "description": "Aut sed harum aut illo. Recusandae nihil libero blanditiis perspiciatis consequatur. Cum nam incidunt quia. Quia est animi nulla saepe.",
+          "photo": "https://via.placeholder.com/640x480.png/00cc00?text=omnis",
+          "price": "657.62",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 194,
+          "name": "aut",
+          "description": "Et iure sit quos vero veniam. Enim consequuntur aut natus eveniet sunt amet vel autem. Sit dolores eum dolore vel possimus natus sunt id. Commodi nostrum sapiente iusto a. Ducimus quas dolorum officiis sint.",
+          "photo": "https://via.placeholder.com/640x480.png/002222?text=dolor",
+          "price": "61.72",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 195,
+          "name": "corrupti",
+          "description": "Omnis maxime necessitatibus sed voluptatum debitis natus. Molestias veniam ipsam non dolore quia et tempora. Nostrum repudiandae tenetur ut vitae doloremque illo. Veritatis ipsum voluptas et eum magnam pariatur.",
+          "photo": "https://via.placeholder.com/640x480.png/001166?text=aut",
+          "price": "749.51",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 196,
+          "name": "ipsam",
+          "description": "Quaerat ducimus ab consectetur sequi illo quam aut. Non dolor nihil quo itaque est et ut. Rerum similique est perferendis magni sed. Ducimus eum vel sint.",
+          "photo": "https://via.placeholder.com/640x480.png/00aa55?text=quibusdam",
+          "price": "221.25",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 197,
+          "name": "voluptatibus",
+          "description": "Aut qui aut eos iure commodi odio. Et et nisi velit excepturi numquam in laboriosam. Et voluptatem amet optio ipsum pariatur.",
+          "photo": "https://via.placeholder.com/640x480.png/00dd88?text=est",
+          "price": "662.53",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 198,
+          "name": "ad",
+          "description": "Voluptatem voluptatem et et minima. Doloremque praesentium id ea. Debitis sint ut a nihil. Quis officiis beatae rerum dolores minus odio molestias corporis. Nesciunt accusantium voluptate quos distinctio reprehenderit a.",
+          "photo": "https://via.placeholder.com/640x480.png/000022?text=assumenda",
+          "price": "217.45",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 199,
+          "name": "neque",
+          "description": "Aliquid quas qui qui sunt accusamus labore. Voluptatem similique officia illo repudiandae pariatur voluptatem harum tempora. Quasi officiis occaecati rerum delectus. Corrupti sint voluptates libero iure. Sed quod blanditiis vero quis ea explicabo.",
+          "photo": "https://via.placeholder.com/640x480.png/003333?text=impedit",
+          "price": "428.69",
+          "category_id": 10,
+          "category": "fugit"
+        },
+        {
+          "id": 200,
+          "name": "aut",
+          "description": "Pariatur ut doloribus aut autem iure autem. Tempora facilis eum repellat.",
+          "photo": "https://via.placeholder.com/640x480.png/000000?text=enim",
+          "price": "422.35",
+          "category_id": 10,
+          "category": "fugit"
+        }
+      ]
+    }
+  ]
+}
