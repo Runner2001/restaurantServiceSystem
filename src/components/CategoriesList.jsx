@@ -1,11 +1,12 @@
 import React from "react";
 import CategoriesCard from "./categoriesCard";
 import useFetch from "../hooks/useFetch";
+import Loading from "./Loading/Loading";
 
 const CategoriesList = () => {
   const { data: categories, loading, error } = useFetch("/categories.json");
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <Loading />;
   if (error) return <div>Error: {error.message}</div>;
 
   return (

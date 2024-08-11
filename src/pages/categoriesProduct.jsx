@@ -7,6 +7,7 @@ import { Link, useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import CartContext from "../context/CartContext";
 import { motion } from "framer-motion";
+import Loading from "../components/Loading/Loading";
 
 const CategoriesProduct = () => {
   const { cart } = useContext(CartContext);
@@ -22,10 +23,6 @@ const CategoriesProduct = () => {
     error: dishesError,
   } = useFetch(`/dishes.json`);
 
-  if (categoriesLoading || dishesLoading) return <div>Loading...</div>;
-  if (categoriesError) return <div>Error: {categoriesError.message}</div>;
-  if (dishesError) return <div>Error: {dishesError.message}</div>;
-
   const category = categories.find(
     (category) => category.id === parseInt(categoryId)
   );
@@ -40,6 +37,10 @@ const CategoriesProduct = () => {
       0
     );
   };
+
+  if (categoriesLoading || dishesLoading) return <Loading />;
+  if (categoriesError) return <div>Error: {categoriesError.message}</div>;
+  if (dishesError) return <div>Error: {dishesError.message}</div>;
 
   return (
     <React.Fragment>
