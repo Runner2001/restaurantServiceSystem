@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Header = ({ leftIcon }) => {
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate("/");
+    navigate(-1);
   };
   return (
     <nav className="flex gap-5 justify-between items-center py-2 pr-4 pl-3 w-full text-sm font-medium leading-none text-black whitespace-nowrap min-h-[56px]">

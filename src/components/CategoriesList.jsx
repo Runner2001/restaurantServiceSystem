@@ -17,7 +17,6 @@ const CategoriesList = () => {
             <CategoriesCard key={index} {...category} />
           ))}
         </div>
-
         <div className="flex gap-2 px-4 items-start mt-2">
           {categories.slice(7).map((category, index) => (
             <CategoriesCard key={index} {...category} />

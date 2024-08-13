@@ -7,11 +7,15 @@ import "../pages/home.css";
 import DishList from "../components/DishList";
 import { useState } from "react";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import ViewCart from "../components/ViewCart";
 import CartContext from "../context/CartContext";
+import TableContext from "../context/TableContext";
 
 const Home = () => {
+  const test = useParams();
+  const tableNo = test.tableNo;
+  const { setTable } = useContext(TableContext);
   const [hasScrolled, setHasScrolled] = useState(false);
   const [dishList, setDishList] = useState([
     {
@@ -71,13 +75,16 @@ const Home = () => {
         setHasScrolled(false);
       }
     };
-
+    setTable(test.tableNo);
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // useEffect(() => {
+  //   setTable(test.tableNo);
+  // }, [tableNo, setTable]);
 
   const handleButtonClick = () => {
     navigate("/cart");
@@ -105,7 +112,7 @@ const Home = () => {
         <div className="div">
           <div className="text-wrapper">You're in Table</div>
           <div className="div-2">
-            <div className="text-wrapper-2">Table - T12</div>
+            <div className="text-wrapper-2">Table - T{test.tableNo}</div>
             <ChevronStates className="chevron-states" color="#1D1F1F" />
           </div>
         </div>

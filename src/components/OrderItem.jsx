@@ -1,6 +1,9 @@
 import React from "react";
 
-const OrderItem = ({ quantity, name, details, price, addons }) => {
+const OrderItem = ({ item }) => {
+  const { quantity, title, details, price, addons } = item;
+  console.log("This is order Item", item);
+
   return (
     <div className="flex flex-col w-full">
       <div className="flex gap-2 items-start py-1 w-full">
@@ -8,9 +11,9 @@ const OrderItem = ({ quantity, name, details, price, addons }) => {
           {quantity}x
         </div>
 
-        <div className="flex flex-col gap-1 flex-1 shrink justify-center basis-0 min-w-[240px]">
-          <div className="text-md font-medium leading-none text-black">
-            {name}
+        <div className="flex flex-col gap-1 flex-1 shrink justify-center basis-0">
+          <div className="text-md font-normal leading-none text-black">
+            {title}
           </div>
 
           {details && (
@@ -18,7 +21,7 @@ const OrderItem = ({ quantity, name, details, price, addons }) => {
           )}
         </div>
 
-        <div className="w-24 text-md font-semibold leading-none text-right text-black">
+        <div className="text-md font-medium leading-none text-right text-black">
           {price}
         </div>
       </div>

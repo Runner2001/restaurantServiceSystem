@@ -1,7 +1,7 @@
 import React from "react";
 import StandardButton from "./StandardButton";
 
-const OrderFooter = ({ buttonText, getTotalPrice }) => {
+const OrderFooter = ({ buttonText, getTotalPrice, handleAction }) => {
   return (
     <section className="flex overflow-hidden flex-col justify-center px-4 pt-2 pb-4 mt-64 w-full text-center bg-white shadow-[0px_-1px_2px_rgba(15,15,16,0.06)]">
       <div className="flex flex-col justify-center w-full text-xl">
@@ -15,8 +15,7 @@ const OrderFooter = ({ buttonText, getTotalPrice }) => {
           </div>
         </div>
       </div>
-
-      <StandardButton buttonText={buttonText} />
+      <StandardButton buttonText={buttonText} buttonFunction={handleAction} />
     </section>
   );
 };

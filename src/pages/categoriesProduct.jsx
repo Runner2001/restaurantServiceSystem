@@ -3,10 +3,10 @@ import Header from "../components/Header";
 import CategoriesImage from "../images/Categorie.png";
 import ProductCart from "../components/ProductCart";
 import ViewCart from "../components/ViewCart";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import CartContext from "../context/CartContext";
-import { motion } from "framer-motion";
+import TableContext from "../context/TableContext";
 import Loading from "../components/Loading/Loading";
 
 const CategoriesProduct = () => {
@@ -45,7 +45,7 @@ const CategoriesProduct = () => {
   return (
     <React.Fragment>
       <div className="flex flex-col w-full bg-white fixed top-0 left-0 z-10 overflow-hidden h-[112px]">
-        <Header />
+        <Header leftIcon={false} />
         <section className="flex gap-1 items-start px-4 pt-1 pb-3 w-full bg-white">
           <div className="flex flex-col flex-1 shrink justify-center w-full basis-0 min-w-[240px]">
             <h1 className="text-2xl font-semibold leading-none text-black">

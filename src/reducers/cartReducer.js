@@ -1,56 +1,5 @@
-// const cartReducer = (state, action) => {
-//     switch (action.type) {
-//         case 'ADD_TO_CART':
-//             const existingItemIndex = state.findIndex(item => item.id === action.payload.id);
-//             if (existingItemIndex >= 0) {
-//                 const updatedCart = state.map((item, index) =>
-//                     index === existingItemIndex ? { ...item, quantity: item.quantity + 1 } : item
-//                 );
-//                 return updatedCart;
-//             }
-//             return [...state, { ...action.payload, quantity: 1 }];
-
-//         case 'REMOVE_FROM_CART':
-//             return state.filter(item => item.id !== action.payload);
-
-//         case 'INCREASE_QUANTITY':
-//             return state.map(item =>
-//                 item.id === action.payload ? { ...item, quantity: item.quantity + 1 } : item
-//             );
-
-//         case 'DECREASE_QUANTITY':
-//             return state.reduce((acc, item) => {
-//                 if (item.id === action.payload) {
-//                     const updatedItem = { ...item, quantity: item.quantity - 1 };
-//                     if (updatedItem.quantity > 0) {
-//                         acc.push(updatedItem);
-//                     }
-//                     // If quantity is 0, the item will not be added to the updated state
-//                 } else {
-//                     acc.push(item);
-//                 }
-//                 return acc;
-//             }, []);
-
-//         default:
-//             return state;
-//     }
-// };
-// export default cartReducer;
-
 const cartReducer = (state, action) => {
     switch (action.type) {
-        // case 'ADD_TO_CART': {
-        //     const existingItemIndex = state.findIndex(item => item.id === action.payload.id);
-        //     if (existingItemIndex >= 0) {
-        //         return state.map((item, index) =>
-        //             index === existingItemIndex
-        //                 ? { ...item, quantity: item.quantity + action.payload.quantity }
-        //                 : item
-        //         );
-        //     }
-        //     return [...state, { ...action.payload, quantity: action.payload.quantity }];
-        // }
 
         case 'ADD_TO_CART': {
             const itemIndex = state.findIndex(item => item.id === action.payload.id);
@@ -88,6 +37,9 @@ const cartReducer = (state, action) => {
                     ? { ...item, quantity: Math.max(item.quantity - 1, 0) }
                     : item
             ).filter(item => item.quantity > 0);
+
+        case 'CLEAR_CART':
+            return [];
 
         default:
             return state;
