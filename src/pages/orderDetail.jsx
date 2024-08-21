@@ -11,15 +11,22 @@ const OrderDetail = () => {
 
   // Destructure the currentTableData from the table context
   const { currentTableData } = table;
+  console.log("Current Table Data:", currentTableData);
 
-  const parsePrice = (priceString) => {
-    return parseFloat(priceString.replace(/[^0-9.-]+/g, ""));
+  // Flatten the orders array
+  const orders = currentTableData?.orders.flat() || [];
+
+  const parsePrice = (priceString = "0") => {
+    // Extract numeric value from price string
+    return parseFloat(priceString.replace(/[^0-9.-]+/g, "")) || 0;
   };
 
   const getTotalPrice = () => {
     return (
-      currentTableData?.orders?.reduce((total, item) => {
-        return total + parsePrice(item.price) * item.quantity;
+      orders.reduce((total, item) => {
+        const price = parsePrice(item.price);
+        const quantity = item.quantity || 1;
+        return total + price * quantity;
       }, 0) || 0
     );
   };

@@ -3,6 +3,14 @@ import React from "react";
 const OrderItem = ({ item }) => {
   const { quantity, title, details, price, addons } = item;
 
+  // Function to parse and clean price values
+  const parsePrice = (priceString = "0") => {
+    return parseFloat(priceString.replace(/[^0-9.-]+/g, "")) || 0;
+  };
+
+  // Calculate total price for the item
+  const itemTotalPrice = parsePrice(price) * (quantity || 1);
+
   return (
     <div className="flex flex-col w-full">
       <div className="flex gap-2 items-start py-1 w-full">
@@ -21,7 +29,10 @@ const OrderItem = ({ item }) => {
         </div>
 
         <div className="text-md font-medium leading-none text-right text-black">
-          {price}
+          {itemTotalPrice.toLocaleString("en-US", {
+            style: "currency",
+            currency: "MMK",
+          })}
         </div>
       </div>
 
@@ -40,7 +51,11 @@ const OrderItem = ({ item }) => {
                 </div>
 
                 <div className="w-24 font-semibold text-right text-black">
-                  {addon.price}
+                  {parsePrice(addon.price) *
+                    (addon.quantity || 1).toLocaleString("en-US", {
+                      style: "currency",
+                      currency: "MMK",
+                    })}
                 </div>
               </div>
             </div>
