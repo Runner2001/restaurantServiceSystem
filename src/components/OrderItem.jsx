@@ -2,7 +2,6 @@ import React from "react";
 
 const OrderItem = ({ item }) => {
   const { quantity, title, details, price, addons } = item;
-  console.log("This is order Item", item);
 
   return (
     <div className="flex flex-col w-full">

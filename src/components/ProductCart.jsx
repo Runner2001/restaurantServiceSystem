@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useContext } from "react";
+import TableContext from "../context/TableContext";
 
 const ProductCart = ({ id, imageSrc, title, price, iconSrc }) => {
+  const { table } = useContext(TableContext);
   return (
-    <Link className="relative rounded-lg overflow-hidden" to={`/dish/${id}`}>
+    <Link
+      className="relative rounded-lg overflow-hidden"
+      to={`/table/${table.tableNo}/dish/${id}`}
+    >
       <motion.img
         src={imageSrc}
         alt={title}

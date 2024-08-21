@@ -1,22 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { ReactComponent as ChevronStates } from "../svgs/chevron-states.svg";
 import { ReactComponent as Cart } from "../svgs/Cart.svg";
 import { ReactComponent as Search } from "../svgs/search.svg";
 import CategoriesList from "../components/CategoriesList";
-import "../pages/home.css";
 import DishList from "../components/DishList";
-import { useState } from "react";
-import { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
 import ViewCart from "../components/ViewCart";
 import CartContext from "../context/CartContext";
 import TableContext from "../context/TableContext";
+import "../pages/home.css";
 
 const Home = () => {
-  const test = useParams();
-  const tableNo = test.tableNo;
-  const { setTable } = useContext(TableContext);
-  const [hasScrolled, setHasScrolled] = useState(false);
+  const { tableNo: paramTableNo } = useParams();
+  const { table, setTable } = useContext(TableContext);
+  const { cart } = useContext(CartContext);
   const [dishList, setDishList] = useState([
     {
       imageSrc:
@@ -64,30 +61,22 @@ const Home = () => {
         "https://cdn.builder.io/api/v1/image/assets/TEMP/84f6a2d0feb2fd4c5a795b0a4737dda83f4be3c0fa705783a0a3f7d4442e3664?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091",
     },
   ]);
-  const { cart } = useContext(CartContext);
+  const [hasScrolled, setHasScrolled] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setHasScrolled(true);
-      } else {
-        setHasScrolled(false);
-      }
+      setHasScrolled(window.scrollY > 0);
     };
-    setTable(test.tableNo);
+    setTable(paramTableNo);
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
-
-  // useEffect(() => {
-  //   setTable(test.tableNo);
-  // }, [tableNo, setTable]);
+  }, [paramTableNo, setTable]);
 
   const handleButtonClick = () => {
-    navigate("/cart");
+    navigate(`/table/${table.tableNo}/cart`);
   };
 
   const parsePrice = (priceString) => {
@@ -112,7 +101,7 @@ const Home = () => {
         <div className="div">
           <div className="text-wrapper">You're in Table</div>
           <div className="div-2">
-            <div className="text-wrapper-2">Table - T{test.tableNo}</div>
+            <div className="text-wrapper-2">Table - T{table.tableNo}</div>
             <ChevronStates className="chevron-states" color="#1D1F1F" />
           </div>
         </div>

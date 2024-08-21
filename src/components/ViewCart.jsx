@@ -2,8 +2,11 @@ import React from "react";
 import { ReactComponent as GradientCart } from "../svgs/Gradient_Cart.svg";
 import StandardButton from "../components/StandardButton";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import TableContext from "../context/TableContext";
 
 const ViewCart = ({ cart, getTotalPrice }) => {
+  const { table } = useContext(TableContext);
   return (
     <div className="w-full h-20 p-4 bg-white shadow-custom-shadow justify-between items-center inline-flex fixed bottom-0 left-0">
       <div className="grow shrink basis-0 h-[42px] justify-start items-center gap-2 flex">
@@ -28,7 +31,7 @@ const ViewCart = ({ cart, getTotalPrice }) => {
           </div>
         </div>
       </div>
-      <Link to={"/cart"}>
+      <Link to={`/table/${table.tableNo}/cart`}>
         <StandardButton buttonText={"View Cart"} />
       </Link>
     </div>

@@ -37,7 +37,7 @@ const Provider = () => {
               }
             />
             <Route
-              path="/cart"
+              path="/table/:tableNo/cart"
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <Cart />
@@ -45,7 +45,7 @@ const Provider = () => {
               }
             />
             <Route
-              path="/category/:categoryId"
+              path="/table/:tableNo/category/:categoryId"
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <CategoriesProduct />
@@ -53,7 +53,7 @@ const Provider = () => {
               }
             />
             <Route
-              path="/dish/:dishId"
+              path="/table/:tableNo/dish/:dishId"
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <ProductDetail />
@@ -61,7 +61,7 @@ const Provider = () => {
               }
             />
             <Route
-              path="/order"
+              path="/table/:tableNo/order"
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <OrderDetail />

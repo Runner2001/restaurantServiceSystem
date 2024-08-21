@@ -4,15 +4,21 @@ const tableReducer = (state, action) => {
             return {
                 ...state,
                 tableNo: action.payload,
-                orderList: [], // Reset order list when a new table is set
             };
-
+        case 'SET_CURRENT_TABLE_DATA':
+            return {
+                ...state,
+                currentTableData: action.payload,
+            };
         case 'ADD_ORDER_TO_TABLE':
             return {
                 ...state,
-                orderList: [...state.orderList, action.payload],
+                currentTableData: {
+                    ...state.currentTableData,
+                    orders: [...state.currentTableData.orders, ...action.payload]
+                },
+                // orderList: [...state.orderList, action.payload],
             };
-
         default:
             return state;
     }

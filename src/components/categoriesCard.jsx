@@ -1,9 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import TableContext from "../context/TableContext";
+import { useContext } from "react";
 
 const CategoriesCard = ({ id, imageUrl, name }) => {
+  const { table } = useContext(TableContext);
   return (
-    <Link className="flex flex-col w-32" to={`/category/${id}`}>
+    <Link
+      className="flex flex-col w-32"
+      to={`/table/${table.tableNo}/category/${id}`}
+    >
       <div className="flex flex-col justify-center items-center px-4 w-32 h-32 bg-gray-50 rounded-lg min-h-[128px]">
         <img
           loading="lazy"

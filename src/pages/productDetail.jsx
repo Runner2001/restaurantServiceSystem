@@ -82,7 +82,7 @@ const ProductDetail = () => {
           <Header leftIcon={false} />
         </div>
         <section className="flex relative flex-col pb-[88px] w-full aspect-[1.777]">
-          <img src={dish.imageSrc} layoutId={`dish-image-${dish.id}`} />
+          <img src={dish.imageSrc} layoutid={`dish-image-${dish.id}`} />
           <ProductData dish={dish} />
         </section>
         <section className="fixed bottom-0 left-0 w-full">

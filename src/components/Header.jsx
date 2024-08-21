@@ -1,7 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import TableContext from "../context/TableContext";
 
 const Header = ({ leftIcon }) => {
+  const { table } = useContext(TableContext);
+
   const navigate = useNavigate();
   const handleBack = () => {
     navigate(-1);
@@ -18,7 +22,7 @@ const Header = ({ leftIcon }) => {
 
       <div
         onClick={() => {
-          navigate("/order");
+          navigate(`/table/${table.tableNo}/order`);
         }}
         className={`flex gap-1 justify-center items-center self-stretch pr-4 pl-3 my-auto bg-gray-100 min-h-[40px] rounded-[50px] ${
           leftIcon ? "visible" : "hidden"
