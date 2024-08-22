@@ -22,34 +22,34 @@
     },
     {
       "tableNo": 5,
-      "orders": [
-        [
-          {
+      "order-items": [
+        {
+          "quantity": 2,
+          "item": {
             "id": 1,
             "title": "Ankimo Ponzu",
             "price": "MMK 15,000.00",
-            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091",
-            "quantity": 2
+            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091"
           }
-        ],
-        [
-          {
-            "id": 2,
-            "title": "Spicy Hotate",
-            "price": "MMK 9,000.00",
-            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091",
-            "quantity": 1
-          }
-        ],
-        [
-          {
+        },
+        {
+          "quantity": 2,
+          "item": {
             "id": 1,
             "title": "Ankimo Ponzu",
             "price": "MMK 15,000.00",
-            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091",
-            "quantity": 6
+            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091"
           }
-        ]
+        },
+        {
+          "quantity": 2,
+          "item": {
+            "id": 1,
+            "title": "Ankimo Ponzu",
+            "price": "MMK 15,000.00",
+            "imageSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/91929e316eabacbb45ac12b0c42d88b8fe9d5f38d67d7904934928d2716e16eb?apiKey=f0e68d8797cf41d7b36c17f698ec0091&&apiKey=f0e68d8797cf41d7b36c17f698ec0091"
+          }
+        }
       ],
       "id": "ac7e"
     }
