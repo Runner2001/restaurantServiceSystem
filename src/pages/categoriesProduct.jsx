@@ -10,18 +10,18 @@ import Loading from "../components/Loading/Loading";
 
 const CategoriesProduct = () => {
   const { cart } = useContext(CartContext);
-  const { categoryId } = useParams();
+  const { categoryId, tableNo: paramTableNo } = useParams();
   const {
     data: categories,
     loading: categoriesLoading,
     error: categoriesError,
   } = useFetch(`category/${categoryId}`);
+  const apiCallBody = {
+    table_id: paramTableNo,
+  };
+  const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
 
   const category = categories && categories.items;
-
-  // const category = categories.items.find(
-  //   (category) => category.id === parseInt(categoryId)
-  // );
 
   const parsePrice = (priceString) => {
     return parseFloat(priceString.replace(/[^0-9.-]+/g, ""));
@@ -60,9 +60,9 @@ const CategoriesProduct = () => {
           ))}
         </div>
       </div>
-      {cart.length > 0 && (
-        <ViewCart cart={cart} getTotalPrice={getTotalPrice} />
-      )}
+      {cartData.carts
+        ? cartData.carts.length > 0 && <ViewCart cartData={cartData} />
+        : ""}
     </React.Fragment>
   );
 };

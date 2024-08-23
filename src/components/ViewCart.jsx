@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import TableContext from "../context/TableContext";
 
-const ViewCart = ({ cart, getTotalPrice }) => {
+const ViewCart = ({ cartData }) => {
   const { table } = useContext(TableContext);
   return (
     <div className="w-full h-20 p-4 bg-white shadow-custom-shadow justify-between items-center inline-flex fixed bottom-0 left-0">
@@ -14,7 +14,7 @@ const ViewCart = ({ cart, getTotalPrice }) => {
           <GradientCart />
           <div className="w-5 h-5 left-[20px] top-[-5px] absolute bg-[#e3200f] rounded-[50px] flex-col justify-center items-center gap-2 inline-flex">
             <div className="text-center text-white text-[11px] font- font-['Inter'] leading-3">
-              {cart.length}
+              {cartData.carts.length}
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ const ViewCart = ({ cart, getTotalPrice }) => {
           </div>
           <div className="justify-start items-start inline-flex">
             <div className="text-center text-black text-lg font-semibold font-['Inter'] leading-relaxed">
-              {getTotalPrice().toFixed(2)}
+              {cartData.total_price}
             </div>
           </div>
         </div>

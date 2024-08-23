@@ -1,12 +1,11 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { API_URL } from '../services/API_URL';
 
 const useFetch = (url, apiCallBody) => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-
-    const API_URL = "http://192.168.45.41:8000/api"
 
     useEffect(() => {
         const fetchData = async () => {

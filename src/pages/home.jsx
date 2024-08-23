@@ -8,6 +8,7 @@ import DishList from "../components/DishList";
 import ViewCart from "../components/ViewCart";
 import CartContext from "../context/CartContext";
 import TableContext from "../context/TableContext";
+import useFetch from "../hooks/useFetch";
 import "../pages/home.css";
 
 const Home = () => {
@@ -63,6 +64,11 @@ const Home = () => {
   ]);
   const [hasScrolled, setHasScrolled] = useState(false);
   const navigate = useNavigate();
+  const apiCallBody = {
+    table_id: paramTableNo,
+  };
+  const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
+  console.log(cartData);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,17 +83,6 @@ const Home = () => {
 
   const handleButtonClick = () => {
     navigate(`/table/${table.tableNo}/cart`);
-  };
-
-  const parsePrice = (priceString) => {
-    return parseFloat(priceString.replace(/[^0-9.-]+/g, ""));
-  };
-
-  const getTotalPrice = () => {
-    return cart.reduce(
-      (total, item) => total + parsePrice(item.price) * item.quantity,
-      0
-    );
   };
 
   return (
@@ -127,9 +122,9 @@ const Home = () => {
         <DishList dishList={dishList} />
       </div>
       {/* View Cart */}
-      {cart.length > 0 && (
-        <ViewCart cart={cart} getTotalPrice={getTotalPrice} />
-      )}
+      {cartData.carts
+        ? cartData.carts.length > 0 && <ViewCart cartData={cartData} />
+        : ""}
     </div>
   );
 };

@@ -5,7 +5,6 @@ import Loading from "./Loading/Loading";
 
 const CategoriesList = () => {
   const { data: categories, loading, error } = useFetch("categories");
-  console.log("Categories:", categories);
 
   if (loading) return <Loading />;
   if (error) return <div>Error: {error.message}</div>;
