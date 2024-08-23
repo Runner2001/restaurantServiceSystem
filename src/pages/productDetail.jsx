@@ -11,6 +11,7 @@ import axios from "axios";
 
 const ProductDetail = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
+  const [special_request, setspecial_request] = useState("");
   const { dishId, tableNo } = useParams();
   const navigate = useNavigate();
   const { data: dish, loading, error } = useFetch(`items/${dishId}`);
@@ -41,6 +42,10 @@ const ProductDetail = () => {
     setQty((prevQuantity) => (prevQuantity > 1 ? prevQuantity - 1 : 1));
   };
 
+  const handleSpecialRequest = (event) => {
+    setspecial_request(event.target.value);
+  };
+
   const addToCart = () => {
     // dispatch({
     //   type: "ADD_TO_CART",
@@ -57,7 +62,7 @@ const ProductDetail = () => {
         table_id: tableNo,
         item_id: dishId,
         quantity: qty,
-        special_request: "The customer is allergic to nuts.",
+        special_request: special_request,
       })
       .then((response) => {
         console.log("Data sent successfully:", response.data);
@@ -88,7 +93,10 @@ const ProductDetail = () => {
             src={dishDetail.photo}
             layoutid={`dish-image-${dishDetail.id}`}
           />
-          <ProductData dish={dishDetail} />
+          <ProductData
+            dish={dishDetail}
+            handleSpecialRequest={handleSpecialRequest}
+          />
         </section>
         <section className="fixed bottom-0 left-0 w-full">
           <DishFooter

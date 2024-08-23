@@ -4,13 +4,13 @@ import DishInstruction from "../components/DishInstruction";
 import DishAddons from "../components/DishAddons";
 import DishSpecialInstruction from "./DishSpecialInstruction";
 
-const ProductData = ({ dish }) => {
+const ProductData = ({ dish, handleSpecialRequest }) => {
   return (
     <React.Fragment>
       <DishDetail dish={dish} />
       <DishInstruction />
       <DishAddons />
-      <DishSpecialInstruction />
+      <DishSpecialInstruction handleSpecialRequest={handleSpecialRequest} />
     </React.Fragment>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const DishSpecialInstruction = () => {
+const DishSpecialInstruction = ({ handleSpecialRequest }) => {
   return (
     <section className="flex flex-col py-4 mt-2 w-full bg-white">
       <h3 className="px-5 w-full text-lg font-medium leading-none text-black">
@@ -12,6 +12,7 @@ const DishSpecialInstruction = () => {
           className="flex-1 border-gray-300 text-sm shrink gap-2 px-3 pt-2.5 pb-16 w-full bg-gray-100 rounded-lg min-h-[96px]"
           placeholder="Add a note"
           aria-label="Special requests"
+          onChange={handleSpecialRequest}
         ></textarea>
       </div>
     </section>
