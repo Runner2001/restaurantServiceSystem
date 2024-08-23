@@ -49,7 +49,7 @@ const CategoriesProduct = () => {
           </div>
         </section>
         <img
-          src={CategoriesImage}
+          src={categories.category_image}
           className="absolute bottom-[-24px] right-[-24px] w-[124px]"
         />
       </div>
