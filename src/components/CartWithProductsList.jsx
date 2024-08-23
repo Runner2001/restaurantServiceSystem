@@ -1,8 +1,13 @@
 import CartWithProduct from "./CartWithProducts";
 
-const CartWithProductsList = ({ cart, increaseQuantity, decreaseQuantity }) => {
+const CartWithProductsList = ({
+  cart,
+  increaseQuantity,
+  decreaseQuantity,
+  deleteItem,
+}) => {
   return (
-    <section className="flex flex-col px-4 py-3 w-full bg-gray-50 mt-[124px]">
+    <section className="flex flex-col py-3 w-full bg-gray-50 mt-[124px]">
       {cart.length !== 0
         ? cart.map((cartData) => (
             <CartWithProduct
@@ -15,6 +20,7 @@ const CartWithProductsList = ({ cart, increaseQuantity, decreaseQuantity }) => {
               id={cartData.id}
               increaseQuantity={increaseQuantity}
               decreaseQuantity={decreaseQuantity}
+              deleteItem={deleteItem}
             />
           ))
         : ""}

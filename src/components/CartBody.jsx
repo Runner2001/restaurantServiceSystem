@@ -3,7 +3,7 @@ import CartEmptyState from "./CartEmptyState";
 import { useState } from "react";
 import CartWithProductsList from "./CartWithProductsList";
 
-const CartBody = ({ cart, increaseQuantity, decreaseQuantity }) => {
+const CartBody = ({ cart, increaseQuantity, decreaseQuantity, deleteItem }) => {
   // const [menuItems, setmenuItems] = useState([
   //   {
   //     id: 1,
@@ -61,6 +61,7 @@ const CartBody = ({ cart, increaseQuantity, decreaseQuantity }) => {
         <CartWithProductsList
           increaseQuantity={increaseQuantity}
           decreaseQuantity={decreaseQuantity}
+          deleteItem={deleteItem}
           cart={cart}
         />
       ) : (

@@ -1,16 +1,16 @@
 import React, { useContext, useState, useEffect } from "react";
 import Navigation from "../components/Navigation";
 import CartBody from "../components/CartBody";
-import TableContext from "../context/TableContext";
 import OrderFooter from "../components/OrderFooter";
 import useFetch from "../hooks/useFetch";
 import { useParams, useNavigate } from "react-router-dom";
 import Loading from "../components/Loading/Loading";
 import axios from "axios";
+import { API_URL } from "../services/API_URL";
 
 const Cart = () => {
   const { tableNo } = useParams();
-  const [cart, setcart] = useState();
+  const [cart, setCart] = useState([]);
   const navigate = useNavigate();
 
   //table_id and item_id
@@ -21,16 +21,13 @@ const Cart = () => {
 
   useEffect(() => {
     if (cartData) {
-      setcart(cartData);
+      setCart(cartData);
     }
   }, [cartData]);
 
-  // console.log("This is useState Cart:", cart);
-  console.log("This is API Cart:", cartData);
-
   const handlePlaceOrder = () => {
     axios
-      .post("http://192.168.45.53:8000/api/orders", {
+      .post(`${API_URL}/orders`, {
         table_id: tableNo,
       })
       .then((response) => {
@@ -43,12 +40,56 @@ const Cart = () => {
     navigate(`/table/${tableNo}`);
   };
 
-  const increaseQuantity = (id) => {
-    // dispatch({ type: "INCREASE_QUANTITY", payload: id });
+  const updateCart = async (id, newQuantity) => {
+    const data = new URLSearchParams();
+    data.append("id", id);
+    data.append("quantity", newQuantity);
+
+    try {
+      const response = await axios.put(`${API_URL}/carts`, data, {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      });
+      console.log(response.data);
+
+      window.location.reload();
+    } catch (error) {
+      console.error(error);
+    }
   };
 
-  const decreaseQuantity = (id) => {
-    // dispatch({ type: "DECREASE_QUANTITY", payload: id });
+  const increaseQuantity = (id, newQuantity) => {
+    updateCart(id, newQuantity);
+  };
+
+  const decreaseQuantity = (id, newQuantity) => {
+    if (newQuantity >= 1) {
+      updateCart(id, newQuantity);
+    }
+  };
+
+  const deleteItem = (id) => {
+    const deleteCard = async (id) => {
+      const data = new URLSearchParams();
+      data.append("cart_id", id);
+
+      try {
+        const response = await axios.delete(`${API_URL}/carts`, {
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          data: data,
+        });
+        console.log(response.data);
+        window.location.reload();
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    deleteCard(id);
   };
 
   if (loading) return <Loading />;
@@ -61,6 +102,7 @@ const Cart = () => {
         cart={cartData.carts}
         increaseQuantity={increaseQuantity}
         decreaseQuantity={decreaseQuantity}
+        deleteItem={deleteItem}
       />
       {cartData.carts.length > 0 && (
         <div className="fixed bottom-0 left-0 w-full">
