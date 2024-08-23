@@ -4,22 +4,22 @@ import { motion } from "framer-motion";
 import { useContext } from "react";
 import TableContext from "../context/TableContext";
 
-const ProductCart = ({ id, imageSrc, title, price, iconSrc }) => {
+const ProductCart = ({ id, photo, name, price, iconSrc }) => {
   const { table } = useContext(TableContext);
   return (
     <Link
       className="relative rounded-lg overflow-hidden"
-      to={`/table/${table.tableNo}/dish/${id}`}
+      to={`/table/${table.tableNo}/items/${id}`}
     >
       <motion.img
-        src={imageSrc}
-        alt={title}
+        src={photo}
+        alt={name}
         className="w-full object-cover"
-        layoutId={`dish-image-${id}`} // Add this line
+        layoutId={`dish-image-${id}`}
       />
       <motion.div className="flex z-0 flex-col pt-2 pb-2 w-full">
-        <h3 className="text-base font-semibold text-black">{title}</h3>
-        <p className="mt-1 text-sm leading-none text-zinc-900">{price}</p>
+        <h3 className="text-base font-semibold text-black">{name}</h3>
+        <p className="mt-1 text-sm leading-none text-zinc-900">MMK {price}</p>
       </motion.div>
       {iconSrc && (
         <div

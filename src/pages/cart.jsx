@@ -1,57 +1,72 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import Navigation from "../components/Navigation";
 import CartBody from "../components/CartBody";
-import CartContext from "../context/CartContext";
 import TableContext from "../context/TableContext";
 import OrderFooter from "../components/OrderFooter";
+import useFetch from "../hooks/useFetch";
+import { useParams, useNavigate } from "react-router-dom";
+import Loading from "../components/Loading/Loading";
+import axios from "axios";
 
 const Cart = () => {
-  const { cart, dispatch } = useContext(CartContext);
+  const { tableNo } = useParams();
+  const [cart, setcart] = useState();
+  const navigate = useNavigate();
 
-  const { addOrderToTable, table } = useContext(TableContext);
+  //table_id and item_id
+  const apiCallBody = {
+    table_id: tableNo,
+  };
+  const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
+
+  useEffect(() => {
+    if (cartData) {
+      setcart(cartData);
+    }
+  }, [cartData]);
+
+  // console.log("This is useState Cart:", cart);
+  console.log("This is API Cart:", cartData);
 
   const handlePlaceOrder = () => {
-    if (table.tableNo) {
-      addOrderToTable(cart);
-      dispatch({ type: "CLEAR_CART" });
-      alert(`Order placed for table ${table.tableNo}`);
-    } else {
-      alert("Table number is not set");
-    }
+    axios
+      .post("http://192.168.45.53:8000/api/orders", {
+        table_id: tableNo,
+      })
+      .then((response) => {
+        console.log("Data sent successfully:", response.data);
+      })
+      .catch((error) => {
+        alert("Error sending data:", error);
+      });
+
+    navigate(`/table/${tableNo}`);
   };
 
   const increaseQuantity = (id) => {
-    dispatch({ type: "INCREASE_QUANTITY", payload: id });
+    // dispatch({ type: "INCREASE_QUANTITY", payload: id });
   };
 
   const decreaseQuantity = (id) => {
-    dispatch({ type: "DECREASE_QUANTITY", payload: id });
+    // dispatch({ type: "DECREASE_QUANTITY", payload: id });
   };
 
-  const parsePrice = (priceString) => {
-    return parseFloat(priceString.replace(/[^0-9.-]+/g, ""));
-  };
-
-  const getTotalPrice = () => {
-    return cart.reduce(
-      (total, item) => total + parsePrice(item.price) * item.quantity,
-      0
-    );
-  };
+  if (loading) return <Loading />;
+  if (error) return <div>Error: {error.message}</div>;
 
   return (
     <div>
       <Navigation leftIcon={true} routeName={"Cart"} routeBody={"Table-T12"} />
       <CartBody
-        cart={cart}
+        cart={cartData.carts}
         increaseQuantity={increaseQuantity}
         decreaseQuantity={decreaseQuantity}
       />
-      {cart.length > 0 && (
+      {cartData.carts.length > 0 && (
         <div className="fixed bottom-0 left-0 w-full">
           <OrderFooter
             buttonText={"Order"}
-            getTotalPrice={getTotalPrice}
+            getTotalPrice={parseInt(cartData.total_price)}
             handleAction={handlePlaceOrder}
           />
         </div>

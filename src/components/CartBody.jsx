@@ -57,7 +57,7 @@ const CartBody = ({ cart, increaseQuantity, decreaseQuantity }) => {
 
   return (
     <React.Fragment>
-      {cart.length ? (
+      {cart && cart.length ? (
         <CartWithProductsList
           increaseQuantity={increaseQuantity}
           decreaseQuantity={decreaseQuantity}

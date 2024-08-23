@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const useFetch = (url) => {
+const useFetch = (url, apiCallBody) => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
+    const API_URL = "http://192.168.45.41:8000/api"
 
     useEffect(() => {
         const fetchData = async () => {
@@ -12,12 +14,19 @@ const useFetch = (url) => {
                 console.log('Fetching data from URL:', url); // Add this line for debugging
                 let response;
                 if (url.includes('categories')) {
-                    response = await axios.get(`${process.env.PUBLIC_URL}/categories.json`);
-                } else if (url.includes('dishes')) {
-                    response = await axios.get(`${process.env.PUBLIC_URL}/dishes.json`);
-                } else if (url.includes('tableData')) {
-                    response = await axios.get(`http://localhost:5001/tables`);
-                } else {
+                    response = await axios.get(`${API_URL}/categories`);
+                } else if (url.includes('category')) {
+                    response = await axios.get(`${API_URL}/${url}`);
+                } else if (url.includes('item')) {
+                    response = await axios.get(`${API_URL}/${url}`);
+                }
+                else if (url.includes('all_cart')) {
+                    response = await axios.post(`${API_URL}/${url}`, apiCallBody);
+                }
+                else if (url.includes('all_orders')) {
+                    response = await axios.post(`${API_URL}/${url}`, apiCallBody);
+                }
+                else {
                     response = await axios.get(`${process.env.PUBLIC_URL}${url}`);
                 }
                 console.log('Response Data:', response.data); // Add this line for debugging

@@ -1,32 +1,21 @@
 import React from "react";
-import { useContext, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import ProductData from "../components/ProductData";
 import DishFooter from "../components/DishFooter";
 import useFetch from "../hooks/useFetch";
-import CartContext from "../context/CartContext";
 import { motion } from "framer-motion";
 import Loading from "../components/Loading/Loading";
+import axios from "axios";
 
 const ProductDetail = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
-  const { dishId } = useParams();
-  const { data: dish, loading, error } = useFetch(`/dishDetail-${dishId}.json`);
-  const [qty, setQty] = useState(1);
-  const { cart, dispatch } = useContext(CartContext);
+  const { dishId, tableNo } = useParams();
   const navigate = useNavigate();
-
-  useEffect(() => {
-    const itemId = parseInt(dishId, 10);
-    const cartItem = cart.find((item) => item.id === itemId);
-
-    if (cartItem) {
-      setQty(cartItem.quantity);
-    } else {
-      setQty(1);
-    }
-  }, [dishId, cart]);
+  const { data: dish, loading, error } = useFetch(`items/${dishId}`);
+  const dishDetail = dish.data || {};
+  const [qty, setQty] = useState(1);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,16 +42,29 @@ const ProductDetail = () => {
   };
 
   const addToCart = () => {
-    dispatch({
-      type: "ADD_TO_CART",
-      payload: {
-        id: dish.id,
-        title: dish.title,
-        price: dish.price,
-        imageSrc: dish.imageSrc,
+    // dispatch({
+    //   type: "ADD_TO_CART",
+    //   payload: {
+    //     id: dish.id,
+    //     title: dish.title,
+    //     price: dish.price,
+    //     imageSrc: dish.imageSrc,
+    //     quantity: qty,
+    //   },
+    // });
+    axios
+      .post("http://192.168.45.41:8000/api/carts", {
+        table_id: tableNo,
+        item_id: dishId,
         quantity: qty,
-      },
-    });
+        special_request: "The customer is allergic to nuts.",
+      })
+      .then((response) => {
+        console.log("Data sent successfully:", response.data);
+      })
+      .catch((error) => {
+        alert("Error sending data:", error);
+      });
     navigate(-1);
   };
 
@@ -82,8 +84,11 @@ const ProductDetail = () => {
           <Header leftIcon={false} />
         </div>
         <section className="flex relative flex-col pb-[88px] w-full aspect-[1.777]">
-          <img src={dish.imageSrc} layoutid={`dish-image-${dish.id}`} />
-          <ProductData dish={dish} />
+          <img
+            src={dishDetail.photo}
+            layoutid={`dish-image-${dishDetail.id}`}
+          />
+          <ProductData dish={dishDetail} />
         </section>
         <section className="fixed bottom-0 left-0 w-full">
           <DishFooter

@@ -11,7 +11,7 @@ const OrderFooter = ({ buttonText, getTotalPrice, handleAction }) => {
           </div>
 
           <div className="self-stretch my-auto font-semibold text-zinc-800">
-            MMK {getTotalPrice().toFixed(2)}
+            MMK {getTotalPrice}
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ function CartWithProducts({
   name,
   price,
   quantity,
+  special_request,
   increaseQuantity,
   decreaseQuantity,
 }) {
@@ -17,7 +18,7 @@ function CartWithProducts({
     <div className="flex overflow-hidden flex-col justify-center py-3.5 w-full">
       <div className="flex gap-2 justify-center items-center w-full">
         <img
-          onClick={() => navigate(`/dish/${id}`)}
+          onClick={() => navigate(`/items/${id}`)}
           loading="lazy"
           src={imageSrc}
           alt={`${name} dish`}
@@ -27,14 +28,18 @@ function CartWithProducts({
         <div className="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
           <div className="flex gap-2 justify-center items-center w-full">
             <div
-              onClick={() => navigate(`/dish/${id}`)}
+              onClick={() => navigate(`/items/${id}`)}
               className="flex flex-col flex-1 shrink self-stretch my-auto basis-0 cursor-pointer"
             >
               <h3 className="text-base font-semibold text-black">{name}</h3>
 
               <div className="flex items-start mt-1 w-full text-sm leading-none whitespace-nowrap text-zinc-900">
-                <span>{price}</span>
+                <span>{price} Ks</span>
               </div>
+
+              <p className="text-sm mt-1 leading-none text-gray-500">
+                {special_request}
+              </p>
             </div>
 
             <div className="flex gap-2 justify-center items-center self-stretch my-auto">

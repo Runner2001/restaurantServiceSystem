@@ -53,7 +53,7 @@ const Provider = () => {
               }
             />
             <Route
-              path="/table/:tableNo/dish/:dishId"
+              path="/table/:tableNo/items/:dishId"
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <ProductDetail />

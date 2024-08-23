@@ -1,42 +1,33 @@
 import React from "react";
 
 const OrderItem = ({ item }) => {
-  const { quantity, title, details, price, addons } = item;
+  console.log("Order Item:", item);
 
-  // Function to parse and clean price values
-  const parsePrice = (priceString = "0") => {
-    return parseFloat(priceString.replace(/[^0-9.-]+/g, "")) || 0;
-  };
-
-  // Calculate total price for the item
-  const itemTotalPrice = parsePrice(price) * (quantity || 1);
+  const itemTotalPrice = item.unit_price * item.quantity;
 
   return (
     <div className="flex flex-col w-full">
       <div className="flex gap-2 items-start py-1 w-full">
         <div className="text-sm font-semibold leading-none text-zinc-900">
-          {quantity}x
+          {item.quantity}x
         </div>
 
         <div className="flex flex-col gap-1 flex-1 shrink justify-center basis-0">
           <div className="text-md font-normal leading-none text-black">
-            {title}
+            {item.item.name}
           </div>
 
-          {details && (
-            <div className="mt-1 text-xs text-gray-500">{details}</div>
+          {item.details && (
+            <div className="mt-1 text-xs text-gray-500">{item.details}</div>
           )}
         </div>
 
         <div className="text-md font-medium leading-none text-right text-black">
-          {itemTotalPrice.toLocaleString("en-US", {
-            style: "currency",
-            currency: "MMK",
-          })}
+          MMK {itemTotalPrice}
         </div>
       </div>
 
-      <div className="flex flex-col gap-1">
+      {/* <div className="flex flex-col gap-1">
         {addons &&
           addons.map((addon, index) => (
             <div
@@ -60,7 +51,7 @@ const OrderItem = ({ item }) => {
               </div>
             </div>
           ))}
-      </div>
+      </div> */}
     </div>
   );
 };
