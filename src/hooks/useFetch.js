@@ -23,6 +23,12 @@ const useFetch = (url, apiCallBody) => {
                     response = await axios.post(`${API_URL}/${url}`, apiCallBody);
                 }
                 else if (url.includes('all_orders')) {
+                    response = await axios.get(`${API_URL}/${url}`);
+                }
+                else if (url.includes('hot_items')) {
+                    response = await axios.get(`${API_URL}/${url}`);
+                }
+                else if (url.includes('table_orders')) {
                     response = await axios.post(`${API_URL}/${url}`, apiCallBody);
                 }
                 else {

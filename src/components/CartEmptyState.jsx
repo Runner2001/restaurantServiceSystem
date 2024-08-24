@@ -1,8 +1,6 @@
 import React from "react";
 import StandardButton from "./StandardButton";
 import { Link, useParams } from "react-router-dom";
-import { useContext } from "react";
-import TableContext from "../context/TableContext";
 
 const CartEmptyState = () => {
   const { tableNo } = useParams();

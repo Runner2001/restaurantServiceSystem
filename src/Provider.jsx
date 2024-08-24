@@ -4,6 +4,7 @@ import Cart from "./pages/cart";
 import CategoriesProduct from "./pages/categoriesProduct";
 import ProductDetail from "./pages/productDetail";
 import OrderDetail from "./pages/orderDetail";
+import Kitchen from "./pages/kitchen";
 import {
   BrowserRouter as Router,
   Routes,
@@ -65,6 +66,14 @@ const Provider = () => {
               element={
                 <PageWrapper pageTransition={pageTransition}>
                   <OrderDetail />
+                </PageWrapper>
+              }
+            />
+            <Route
+              path="/kitchen"
+              element={
+                <PageWrapper pageTransition={pageTransition}>
+                  <Kitchen />
                 </PageWrapper>
               }
             />

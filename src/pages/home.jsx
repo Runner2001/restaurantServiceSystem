@@ -68,7 +68,13 @@ const Home = () => {
     table_id: paramTableNo,
   };
   const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
-  console.log(cartData);
+  const {
+    data: hotData,
+    hotloading,
+    hoterror,
+  } = useFetch(`hot_items`, apiCallBody);
+
+  console.log("Hot Items", hotData);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -119,7 +125,7 @@ const Home = () => {
           <CategoriesList />
         </div>
         {/* Dish you must try */}
-        <DishList dishList={dishList} />
+        <DishList dishList={hotData.data} />
       </div>
       {/* View Cart */}
       {cartData.carts

@@ -6,6 +6,7 @@ import TableContext from "../context/TableContext";
 import { useNavigate, useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import Loading from "../components/Loading/Loading";
+import CartEmptyState from "../components/CartEmptyState";
 
 const OrderDetail = () => {
   const { tableNo } = useParams();
@@ -18,7 +19,7 @@ const OrderDetail = () => {
     data: orderData,
     loading,
     error,
-  } = useFetch(`all_orders`, apiCallBody);
+  } = useFetch(`table_orders`, apiCallBody);
 
   const handleAction = () => {
     navigate(`/table/${tableNo}/`);
@@ -34,12 +35,21 @@ const OrderDetail = () => {
         routeName={`Table Number: ${tableNo}`}
         routeBody={"Order Details"}
       />
-      <div className="w-full">
-        <OrderItems orderList={orderData?.orders || []} />
-      </div>
-      <div className="fixed bottom-0 left-0 w-full">
-        <OrderFooter getTotalPrice={orderData.orders[0].total_price} />
-      </div>
+      {orderData.orders.length > 0 ? (
+        <div>
+          <div className="w-full">
+            <OrderItems orderList={orderData?.orders || []} />
+          </div>
+          <div className="fixed bottom-0 left-0 w-full">
+            <OrderFooter
+              getTotalPrice={orderData.orders[0].total_price}
+              buttonText={"NO"}
+            />
+          </div>
+        </div>
+      ) : (
+        <CartEmptyState />
+      )}
     </div>
   );
 };

@@ -1,19 +1,24 @@
 import React from "react";
+import { Link, useParams } from "react-router-dom";
 
-function DishCard({ imageSrc, title, price, iconSrc }) {
+function DishCard({ id, photo, name, price, iconSrc }) {
+  const { tableNo } = useParams();
   return (
-    <article className="flex relative flex-col pb-2 w-60">
+    <Link
+      to={`/table/${tableNo}/items/${id}`}
+      className="flex relative flex-col pb-2 w-60"
+    >
       <img
         loading="lazy"
-        src={imageSrc}
-        alt={title}
+        src={photo}
+        alt={name}
         className="object-contain z-0 self-center w-60 max-w-full rounded aspect-[1.33]"
       />
 
       <div className="flex z-0 flex-col mt-2 w-full">
-        <h3 className="text-base font-semibold text-black">{title}</h3>
+        <h3 className="text-base font-semibold text-black">{name}</h3>
 
-        <p className="mt-1 text-sm leading-none text-zinc-900">{price}</p>
+        <p className="mt-1 text-sm leading-none text-zinc-900">MMK {price}</p>
       </div>
 
       {iconSrc && (
@@ -29,7 +34,7 @@ function DishCard({ imageSrc, title, price, iconSrc }) {
           />
         </div>
       )}
-    </article>
+    </Link>
   );
 }
 

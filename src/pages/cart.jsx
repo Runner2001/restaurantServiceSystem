@@ -107,7 +107,7 @@ const Cart = () => {
       {cartData.carts.length > 0 && (
         <div className="fixed bottom-0 left-0 w-full">
           <OrderFooter
-            buttonText={"Order"}
+            buttonText={"Place Order"}
             getTotalPrice={parseInt(cartData.total_price)}
             handleAction={handlePlaceOrder}
           />

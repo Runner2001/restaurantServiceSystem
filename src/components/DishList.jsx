@@ -10,9 +10,8 @@ function DishList({ dishList }) {
 
       <div className="flex overflow-x-auto hide-scrollbar px-4 mt-2 w-full">
         <div className="flex gap-4 items-start">
-          {dishList.map((dish, index) => (
-            <DishCard key={index} {...dish} />
-          ))}
+          {dishList &&
+            dishList.map((dish, index) => <DishCard key={index} {...dish} />)}
         </div>
       </div>
     </section>
