@@ -9,7 +9,6 @@ import Loading from "../components/Loading/Loading";
 
 const OrderDetail = () => {
   const { tableNo } = useParams();
-  const { table } = useContext(TableContext);
   const navigate = useNavigate();
 
   const apiCallBody = {
@@ -22,7 +21,7 @@ const OrderDetail = () => {
   } = useFetch(`all_orders`, apiCallBody);
 
   const handleAction = () => {
-    navigate(`/table/${table.tableNo}/`);
+    navigate(`/table/${tableNo}/`);
   };
 
   if (loading) return <Loading />;
@@ -39,14 +38,9 @@ const OrderDetail = () => {
         <OrderItems orderList={orderData?.orders || []} />
       </div>
       <div className="fixed bottom-0 left-0 w-full">
-        <OrderFooter
-          buttonText={"Check Out"}
-          getTotalPrice={orderData.orders[0].total_price}
-          handleAction={handleAction}
-        />
+        <OrderFooter getTotalPrice={orderData.orders[0].total_price} />
       </div>
     </div>
   );
 };
-
 export default OrderDetail;

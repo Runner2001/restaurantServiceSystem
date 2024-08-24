@@ -1,11 +1,11 @@
 import React from "react";
 import StandardButton from "./StandardButton";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useContext } from "react";
 import TableContext from "../context/TableContext";
 
 const CartEmptyState = () => {
-  const { table } = useContext(TableContext);
+  const { tableNo } = useParams();
   return (
     <div className="flex flex-col justify-center items-center w-full text-center h-[100vh]">
       <img
@@ -18,7 +18,7 @@ const CartEmptyState = () => {
         <h1 className="text-xl font-medium leading-7 text-black mb-6">
           Your bag is empty. Let's start an order!
         </h1>
-        <Link to={`/table/${table.tableNo}/`}>
+        <Link to={`/table/${tableNo}/`}>
           <StandardButton buttonText={"Start Order"} />
         </Link>
       </section>

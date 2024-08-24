@@ -8,6 +8,7 @@ import useFetch from "../hooks/useFetch";
 import { motion } from "framer-motion";
 import Loading from "../components/Loading/Loading";
 import axios from "axios";
+import { API_URL } from "../services/API_URL";
 
 const ProductDetail = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -58,7 +59,7 @@ const ProductDetail = () => {
     //   },
     // });
     axios
-      .post("http://192.168.45.41:8000/api/carts", {
+      .post(`${API_URL}/carts`, {
         table_id: tableNo,
         item_id: dishId,
         quantity: qty,
