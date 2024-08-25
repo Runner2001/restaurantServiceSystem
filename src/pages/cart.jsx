@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Navigation from "../components/Navigation";
 import CartBody from "../components/CartBody";
 import OrderFooter from "../components/OrderFooter";
@@ -13,15 +13,15 @@ const Cart = () => {
   const [cart, setCart] = useState([]);
   const navigate = useNavigate();
 
-  //table_id and item_id
+  // Table ID and item ID
   const apiCallBody = {
     table_id: tableNo,
   };
   const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
 
   useEffect(() => {
-    if (cartData) {
-      setCart(cartData);
+    if (cartData && cartData.carts) {
+      setCart(cartData.carts);
     }
   }, [cartData]);
 
@@ -54,42 +54,64 @@ const Cart = () => {
       });
       console.log(response.data);
 
-      window.location.reload();
+      // Update the local cart state without reloading the page
+      const updatedCart = cart.map((item) =>
+        item.id === id ? { ...item, quantity: newQuantity } : item
+      );
+      setCart(updatedCart);
     } catch (error) {
       console.error(error);
     }
   };
 
-  const increaseQuantity = (id, newQuantity) => {
-    updateCart(id, newQuantity);
+  const increaseQuantity = (id) => {
+    setCart((prevCart) => {
+      const updatedCart = prevCart.map((item) => {
+        if (item.id === id) {
+          const newQuantity = item.quantity + 1;
+          updateCart(id, newQuantity);
+          return { ...item, quantity: newQuantity };
+        }
+        return item;
+      });
+      return updatedCart;
+    });
   };
 
-  const decreaseQuantity = (id, newQuantity) => {
-    if (newQuantity >= 1) {
-      updateCart(id, newQuantity);
+  const decreaseQuantity = (id) => {
+    setCart((prevCart) => {
+      const updatedCart = prevCart.map((item) => {
+        if (item.id === id && item.quantity > 1) {
+          const newQuantity = item.quantity - 1;
+          updateCart(id, newQuantity);
+          return { ...item, quantity: newQuantity };
+        }
+        return item;
+      });
+      return updatedCart;
+    });
+  };
+
+  const deleteItem = async (id) => {
+    const data = new URLSearchParams();
+    data.append("cart_id", id);
+
+    try {
+      const response = await axios.delete(`${API_URL}/carts`, {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        data: data,
+      });
+      console.log(response.data);
+
+      // Remove the item from the cart state
+      const updatedCart = cart.filter((item) => item.id !== id);
+      setCart(updatedCart);
+    } catch (error) {
+      console.error(error);
     }
-  };
-
-  const deleteItem = (id) => {
-    const deleteCard = async (id) => {
-      const data = new URLSearchParams();
-      data.append("cart_id", id);
-
-      try {
-        const response = await axios.delete(`${API_URL}/carts`, {
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-          data: data,
-        });
-        console.log(response.data);
-        window.location.reload();
-      } catch (error) {
-        console.error(error);
-      }
-    };
-    deleteCard(id);
   };
 
   if (loading) return <Loading />;
@@ -99,12 +121,12 @@ const Cart = () => {
     <div>
       <Navigation leftIcon={true} routeName={"Cart"} routeBody={"Table-T12"} />
       <CartBody
-        cart={cartData.carts}
+        cart={cart}
         increaseQuantity={increaseQuantity}
         decreaseQuantity={decreaseQuantity}
         deleteItem={deleteItem}
       />
-      {cartData.carts.length > 0 && (
+      {cart.length > 0 && (
         <div className="fixed bottom-0 left-0 w-full">
           <OrderFooter
             buttonText={"Place Order"}

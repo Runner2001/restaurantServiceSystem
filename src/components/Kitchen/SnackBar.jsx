@@ -10,7 +10,7 @@ const SnackBar = ({ message, onClose, duration = 3000 }) => {
   }, [onClose, duration]);
 
   return (
-    <div className="fixed bottom-16 left-[50%] translate-x-[-50%] bg-blue-600 text-white p-3 px-4 rounded-md shadow-md">
+    <div className="fixed bottom-16 left-[50%] translate-x-[-50%] bg-green-500 text-white p-3 px-4 rounded-md shadow-md">
       {message}
     </div>
   );

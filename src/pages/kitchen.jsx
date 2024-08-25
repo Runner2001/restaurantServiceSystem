@@ -43,6 +43,7 @@ const Kitchen = () => {
   };
 
   const fetchOrders = async () => {
+    setLoading(true);
     try {
       const response = await axios.get(`${API_URL}/all_orders`);
       const newOrders = response.data.orders;
@@ -58,6 +59,8 @@ const Kitchen = () => {
     } catch (err) {
       setError(err);
       setLoading(false);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -66,7 +69,7 @@ const Kitchen = () => {
 
     const interval = setInterval(() => {
       fetchOrders();
-    }, 30000);
+    }, 300000);
 
     return () => clearInterval(interval);
   }, [canPlaySound]);
@@ -91,7 +94,7 @@ const Kitchen = () => {
 
   if (loading) return <Loading />;
   if (error) return <div>Error: {error.message}</div>;
-  if (kitchenData.length === 0) return <EmptyState />;
+  if (kitchenData.length === 0) return <EmptyState fetchOrders={fetchOrders} />;
 
   return (
     <main className="flex overflow-hidden flex-col bg-gray-100 h-[100vh]">
@@ -105,14 +108,22 @@ const Kitchen = () => {
         })}
       </div>
       <footer className="flex overflow-hidden flex-col mt-28 w-full text-base text-black bg-white max-md:mt-10 max-md:max-w-full fixed bottom-0">
-        <div className="flex flex-wrap gap-2 justify-between items-center p-4 w-full min-h-[56px] max-md:max-w-full">
+        <div className="flex relative flex-wrap gap-2 justify-between items-center p-4 w-full min-h-[56px] max-md:max-w-full">
           <div className="self-stretch my-auto font-semibold">
             {kitchenData.length} Orders
           </div>
 
-          <div className="self-stretch my-auto">
+          <div className="self-stretch my-auto absolute left-[50%] translate-x-[-50%]">
             Kitchen View Min Lan (Parami)
           </div>
+
+          {/* Refresh Button */}
+          <button
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            onClick={fetchOrders}
+          >
+            Refresh Orders
+          </button>
         </div>
       </footer>
 
