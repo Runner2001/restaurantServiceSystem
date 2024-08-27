@@ -12,7 +12,7 @@ function DishCard({ id, photo, name, price, iconSrc }) {
         loading="lazy"
         src={photo}
         alt={name}
-        className="object-contain z-0 self-center w-60 max-w-full rounded aspect-[1.33]"
+        className="object-cover z-0 self-center w-60 max-w-full rounded aspect-[1.33]"
       />
 
       <div className="flex z-0 flex-col mt-2 w-full">

@@ -22,6 +22,7 @@ const CategoriesProduct = () => {
   const { data: cartData, loading, error } = useFetch(`all_carts`, apiCallBody);
 
   const category = categories && categories.items;
+  console.log(categories);
 
   const parsePrice = (priceString) => {
     return parseFloat(priceString.replace(/[^0-9.-]+/g, ""));
@@ -48,10 +49,10 @@ const CategoriesProduct = () => {
             </h1>
           </div>
         </section>
-        <img
+        {/* <img
           src={categories.category_image}
           className="absolute bottom-[-24px] right-[-24px] w-[124px]"
-        />
+        /> */}
       </div>
       <div className="mx-auto p-4 mt-[112px]">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

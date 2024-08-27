@@ -8,8 +8,8 @@ const ProductData = ({ dish, handleSpecialRequest }) => {
   return (
     <React.Fragment>
       <DishDetail dish={dish} />
-      <DishInstruction />
-      <DishAddons />
+      {/* <DishInstruction />
+      <DishAddons /> */}
       <DishSpecialInstruction handleSpecialRequest={handleSpecialRequest} />
     </React.Fragment>
   );
